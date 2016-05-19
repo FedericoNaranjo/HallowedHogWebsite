@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		/*Set game box styling*/
+		#game
+		{
+			height:600px;
+			width:500px;
+			margin-left:10%;
+			border:2px solid navy;
+		}
+		
+		/*Container for inputs*/
+		#container
+		{	
+			height:600px;
+			width:400px;
+			text-align:center;
+			float:left;
+			border:2px solid red;
+		}
+		
+		/*Container for results*/
+		#container2
+		{	
+			height:600px;
+			width:70px;
+			text-align:center;
+			display:inline-block;
+		}
+		
+		/*Disable textarea resizing*/
+		textarea 
+		{
+			resize: none;
+		}
+	</style>	
+</head>
+
+<body>
+
+	<!--Create Containers-->
+	<div id="game">
+		<div id="container">
+			<p id="title">MASTERMIND</p>
+			<button type="button" onclick="startGame()" style="top:0;right:0;" id="startButton">START</button>
+			<p id="testing"></p>
+		</div>
+		<div id="container2"></br></br></br></br></br></div>
+	</div>
+
+	<!--Javascripts-->
+	<script>
+		//Function to start game modules
+		function startGame()
+		{
+			//Change title
+			document.getElementById("title").innerHTML="STARTED MASTERMIND";
+			
+			//Disable start button
+			document.getElementById("startButton").disabled=true;
+			
+			//Set number of turns DONT USE VAR HERE, MAKES IT GLOBAL
+			turns=12;
+			
+			//Start at turn 0, DONT USE VAR HERE, MAKES IT GLOBAL
+			turnNumber=0;
+			
+			//Create array for input textareas(enter color guesses), and output textareas(output peg results)
+			inputs=new Array(turns);
+			results=new Array(turns);
+			
+			//Each Row(number of turns)
+			for(var j=0;j<turns;j++)
+			{
+				//Create array of textarea rows for guessing
+				var inputRow=[];	
+				
+				//Create each individual textarea inside the input textarea rows
+				for(var i=0;i<4;i++)
+				{
+					//Create textarea, and set specifications
+					var textArea=document.createElement("TEXTAREA");
+					var textNode=document.createTextNode("");
+					textArea.appendChild(textNode);
+					textArea.rows=1;
+					textArea.cols=9;
+					
+					//Add the current input textarea to the textarea row
+					inputRow[i]=textArea;
+					
+					//Add the current input textarea to the input container
+					document.getElementById("container").appendChild(inputRow[i]);
+					
+					//Disable all but the last/bottom row inputs(until you reach that turn
+					if(j!=(turns-1))
+					{
+						inputRow[i].disabled=true;
+					}
+					//else last/bottom row leave enabled
+					
+					//Start a new line if the row is complete
+					if(i==3)
+					{
+						var br = document.createElement("br");
+						document.getElementById("container").appendChild(br);
+					}			
+				}
+				//Add input row to input array of textareas for guessing
+				inputs[j]=inputRow;
+				
+				//Create result textarea to display outputs(pegs of guesses)
+				var result = document.createElement("TEXTAREA");
+				result.disabled=true;
+				var resultNode=document.createTextNode("");
+				result.appendChild(resultNode);
+				result.rows=1;
+				result.cols=8;
+				results[j]=result;
+				document.getElementById("container2").appendChild(results[j]);
+				document.getElementById("container2").appendChild(br);
+			}
+			
+			//Create button at bottom to send guesses
+			var sendButton = document.createElement("BUTTON");
+			var sendButtonNode=document.createTextNode("Guess");
+			sendButton.appendChild(sendButtonNode);
+			document.getElementById("container").appendChild(br);
+			document.getElementById("container").appendChild(sendButton);
+			sendButton.onclick=function(){send()};//Function that happens on button click
+			
+			//Fix spacing for rows
+			document.getElementById("container2").style.marginTop = "-1px";
+			
+			//Create random code
+			createCode();
+			
+			//For instructions
+			alert("GAME STARTED\nTurns: "+turns+"\nColours:\n"+colours.join("\n"));
+				
+		}
+	</script>
+	<script>
+		//When the send button is clicked, check
+		function createCode()
+		{	
+			//Create Colours DONT USE VAR HERE, MAKES IT GLOBAL
+			colours=['Red', 'Blue', 'Yellow', 'Green', 'Brown', 'Purple', 'Black', 'White'];
+			
+			//Create code randomly
+			var maximum=colours.length-1;
+			var minimum=0;
+			var colour1 = colours[Math.floor(Math.random() * (maximum - minimum + 1)) + minimum];
+			var colour2 = colours[Math.floor(Math.random() * (maximum - minimum + 1)) + minimum];
+			var colour3 = colours[Math.floor(Math.random() * (maximum - minimum + 1)) + minimum];
+			var colour4 = colours[Math.floor(Math.random() * (maximum - minimum + 1)) + minimum];
+			code=[colour1,colour2, colour3,colour4];
+			
+			//Number of each colour in the code,starting at 0
+			codeColourNumber=new Array(colours.length);
+			for(var i=0;i<colours.length;i++)
+			{
+				codeColourNumber[i]=0;
+			}
+			
+			
+			//For each colour in the code, determine the number of occurances
+			for(var j=0;j<4;j++)
+			{
+				//alert("TESTING");
+				if(colours.indexOf(code[j])>-1)//code entry is in colours
+				{
+					var index=colours.indexOf(code[j]);//index of current code entry in colour list
+					//alert("colour.indexOf(code[j])="+index);
+					codeColourNumber[index]+=1;
+					
+				}		
+					
+			}
+			
+			
+			alert("DEBUGMODE-Code is:\n"+code.join(","));
+			
+			for(var k=0;k<colours.length;k++)
+			{
+				//alert("Number of occurances of " +colours[k] +": "+codeColourNumber[k]);
+			}
+		}
+	</script>
+	<script>
+		function send()
+		{
+			var guess=[];//empty local array for guess
+			var whitePegs=0;//number of correct colour guesses, but incorrect position
+			var blackPegs=0;//number of guesses with correct colour and position
+			
+			//Number of guesses for each colour
+			var guessColourNumber=new Array(colours.length);
+			for(var j=0;j<colours.length;j++)
+			{
+				guessColourNumber[j]=0;
+			}
+			
+			//Get current guess into array variable, disable current row, get number of guesses 
+			for(var i=0;i<4;i++)
+			{
+				guess[i]=inputs[turns-1-turnNumber][i].value;
+				inputs[turns-1-turnNumber][i].disabled=true;//Disable current row
+				
+				//For each colour in the guess, determine the number of occurances
+				if(colours.indexOf(guess[i])>-1)//code entry is in colours
+				{
+					var index=colours.indexOf(guess[i]);//index of current code entry in colour list
+					//alert("colour.indexOf(code[j])="+index);
+					guessColourNumber[index]+=1;
+					//alert("Number of occurances of " +colours[index] +": "+guessColourNumber[index]);
+				}		
+				//alert(guess[i]);
+			}
+			
+			for(var index=0;index<colours.length;index++)
+			{
+				//alert("Number of guesses of " +colours[index] +": "+guessColourNumber[index]);
+			}
+			
+			//Determine number of white pegs(can be overruled by blacks)
+			for(var i=0;i<colours.length;i++)
+			{	
+				//Number of guesses for that colour is same as number of code occurances as the colour
+				if( (guessColourNumber[i]!=0) && (codeColourNumber[i]!=0) )
+				{	
+					if(guessColourNumber[i]>=codeColourNumber[i])
+					{
+							whitePegs+=codeColourNumber[i];//add the corresponding number of incidents
+					}
+					
+					if(guessColourNumber[i]<codeColourNumber[i])
+					{
+							whitePegs+=guessColourNumber[i];//add the corresponding number of incidents
+					}
+				}
+			}
+			
+			
+			//Check if there are any blackPegs
+			for(var i=0;i<4;i++)
+			{
+				if(code[i]==guess[i])
+				{
+					blackPegs+=1;
+					whitePegs-=1;
+				}
+			}
+			
+			//Set results to pegs
+			var pegs=createPegs(whitePegs,blackPegs);
+			results[turns-1-turnNumber].value=pegs;
+			
+			//Check if game has been won, and if so, done
+			if( results[turns-1-turnNumber].value==['B','B','B','B'] )
+			{
+				alert("GAME WON!");
+				return;
+			}
+			//else game not won
+			turnNumber+=1;//increase turn number
+			//check if game lost
+			if(turnNumber==turns)
+			{
+				alert("GAME LOST :(");
+			}
+			
+			for(var i=0;i<4;i++)//enable new textareas
+			{
+				inputs[turns-1-turnNumber][i].disabled=false;
+			}
+			
+			debugger;
+		}
+	</script>
+	<script>
+		//Return an array of pegs, based on guesses
+		function createPegs(white,black)
+		{	
+			var pegs=[];
+			for(var i=0; i<white; i++)
+			{
+				pegs.push("W");
+			}
+			for(var i=0; i<black; i++)
+			{
+				pegs.push("B");
+			}
+			while(pegs.length!=4)
+			{
+				pegs.push('X');
+			}
+			return pegs;
+		}
+	</script>
+</body>
+</html> 

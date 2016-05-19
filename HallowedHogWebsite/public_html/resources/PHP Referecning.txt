@@ -1,0 +1,673 @@
+<!--PHP Referencing-->
+	<?php
+	//Carleton Section------------------------------------------------------------------------------>
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	$Carleton = glob('archives/Carleton/*');
+	
+	//Carleton1
+	$Carleton1=$Carleton[count($Carleton)-1];
+	$Carleton1Length=strlen($Carleton1)+1;
+	$Carleton1.="/*";
+	$Carleton1=glob($Carleton1);
+	
+	$Carleton1Pic=getPic($Carleton1);
+ 	$Carleton1Caption=getCaption($Carleton1);
+	$Carleton1Article=getArticle($Carleton1);
+	$Carleton1Title=getTitle($Carleton1Article,$Carleton1Length);
+	
+	//Carleton2
+	$Carleton2=$Carleton[count($Carleton)-2];
+	$Carleton2Length=strlen($Carleton2)+1;
+	$Carleton2.="/*";
+	$Carleton2=glob($Carleton2);
+	
+	$Carleton2Pic=getPic($Carleton2);
+ 	$Carleton2Caption=getCaption($Carleton2);
+	$Carleton2Article=getArticle($Carleton2);
+	$Carleton2Title=getTitle($Carleton2Article,$Carleton2Length);
+	
+	//Carleton3
+	$Carleton3=$Carleton[count($Carleton)-3];
+	$Carleton3Length=strlen($Carleton3)+1;
+	$Carleton3.="/*";
+	$Carleton3=glob($Carleton3);
+	
+	$Carleton3Pic=getPic($Carleton3);
+ 	$Carleton3Caption=getCaption($Carleton3);
+	$Carleton3Article=getArticle($Carleton3);
+	$Carleton3Title=getTitle($Carleton3Article,$Carleton3Length);
+	
+	//Carleton4
+	$Carleton4=$Carleton[count($Carleton)-4];
+	$Carleton4Length=strlen($Carleton4)+1;
+	$Carleton4.="/*";
+	$Carleton4=glob($Carleton4);
+	
+	$Carleton4Pic=getPic($Carleton4);
+ 	$Carleton4Caption=getCaption($Carleton4);
+	$Carleton4Article=getArticle($Carleton4);
+	$Carleton4Title=getTitle($Carleton4Article,$Carleton4Length);
+	
+	//Carleton5
+	$Carleton5=$Carleton[count($Carleton)-5];
+	$Carleton5Length=strlen($Carleton5)+1;
+	$Carleton5.="/*";
+	$Carleton5=glob($Carleton5);
+	
+	$Carleton5Pic=getPic($Carleton5);
+ 	$Carleton5Caption=getCaption($Carleton5);
+	$Carleton5Article=getArticle($Carleton5);
+	$Carleton5Title=getTitle($Carleton5Article,$Carleton5Length);
+	
+	//Carleton6
+	$Carleton6=$Carleton[count($Carleton)-6];
+	$Carleton6Length=strlen($Carleton6)+1;
+	$Carleton6.="/*";
+	$Carleton6=glob($Carleton6);
+	
+	$Carleton6Pic=getPic($Carleton6);
+ 	$Carleton6Caption=getCaption($Carleton6);
+	$Carleton6Article=getArticle($Carleton6);
+	$Carleton6Title=getTitle($Carleton6Article,$Carleton6Length);
+	
+	//Carleton7
+	$Carleton7=$Carleton[count($Carleton)-7];
+	$Carleton7Length=strlen($Carleton7)+1;
+	$Carleton7.="/*";
+	$Carleton7=glob($Carleton7);
+	
+	$Carleton7Pic=getPic($Carleton7);
+ 	$Carleton7Caption=getCaption($Carleton7);
+	$Carleton7Article=getArticle($Carleton7);
+	$Carleton7Title=getTitle($Carleton7Article,$Carleton7Length);
+	
+	//Carleton8
+	$Carleton8=$Carleton[count($Carleton)-8];
+	$Carleton8Length=strlen($Carleton8)+1;
+	$Carleton8.="/*";
+	$Carleton8=glob($Carleton8);
+	
+	$Carleton8Pic=getPic($Carleton8);
+ 	$Carleton8Caption=getCaption($Carleton8);
+	$Carleton8Article=getArticle($Carleton8);
+	$Carleton8Title=getTitle($Carleton8Article,$Carleton8Length);
+	///END OF CARLETON----------------------------------------------------------------------->
+	//////////////////////////////////////////////////////////////////////////////////////////
+
+	
+	//Politics Section------------------------------------------------------------------------------>
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	$Politics = glob('archives/Politics/*');
+	
+	//Politics1
+	$Politics1=$Politics[count($Politics)-1];
+	$Politics1Length=strlen($Politics1)+1;
+	$Politics1.="/*";
+	$Politics1=glob($Politics1);
+	
+	$Politics1Pic=getPic($Politics1);
+ 	$Politics1Caption=getCaption($Politics1);
+	$Politics1Article=getArticle($Politics1);
+	$Politics1Title=getTitle($Politics1Article,$Politics1Length);
+	
+	//Politics2
+	$Politics2=$Politics[count($Politics)-2];
+	$Politics2Length=strlen($Politics2)+1;
+	$Politics2.="/*";
+	$Politics2=glob($Politics2);
+	
+	$Politics2Pic=getPic($Politics2);
+ 	$Politics2Caption=getCaption($Politics2);
+	$Politics2Article=getArticle($Politics2);
+	$Politics2Title=getTitle($Politics2Article,$Politics2Length);
+	
+	//Politics3
+	$Politics3=$Politics[count($Politics)-3];
+	$Politics3Length=strlen($Politics3)+1;
+	$Politics3.="/*";
+	$Politics3=glob($Politics3);
+	
+	$Politics3Pic=getPic($Politics3);
+ 	$Politics3Caption=getCaption($Politics3);
+	$Politics3Article=getArticle($Politics3);
+	$Politics3Title=getTitle($Politics3Article,$Politics3Length);
+	
+	//Politics4
+	$Politics4=$Politics[count($Politics)-4];
+	$Politics4Length=strlen($Politics4)+1;
+	$Politics4.="/*";
+	$Politics4=glob($Politics4);
+	
+	$Politics4Pic=getPic($Politics4);
+ 	$Politics4Caption=getCaption($Politics4);
+	$Politics4Article=getArticle($Politics4);
+	$Politics4Title=getTitle($Politics4Article,$Politics4Length);
+	
+	//Politics5
+	$Politics5=$Politics[count($Politics)-5];
+	$Politics5Length=strlen($Politics5)+1;
+	$Politics5.="/*";
+	$Politics5=glob($Politics5);
+	
+	$Politics5Pic=getPic($Politics5);
+ 	$Politics5Caption=getCaption($Politics5);
+	$Politics5Article=getArticle($Politics5);
+	$Politics5Title=getTitle($Politics5Article,$Politics5Length);
+	
+	//Politics6
+	$Politics6=$Politics[count($Politics)-6];
+	$Politics6Length=strlen($Politics6)+1;
+	$Politics6.="/*";
+	$Politics6=glob($Politics6);
+	
+	$Politics6Pic=getPic($Politics6);
+ 	$Politics6Caption=getCaption($Politics6);
+	$Politics6Article=getArticle($Politics6);
+	$Politics6Title=getTitle($Politics6Article,$Politics6Length);
+	
+	//Politics7
+	$Politics7=$Politics[count($Politics)-7];
+	$Politics7Length=strlen($Politics7)+1;
+	$Politics7.="/*";
+	$Politics7=glob($Politics7);
+	
+	$Politics7Pic=getPic($Politics7);
+ 	$Politics7Caption=getCaption($Politics7);
+	$Politics7Article=getArticle($Politics7);
+	$Politics7Title=getTitle($Politics7Article,$Politics7Length);
+	
+	//Politics8
+	$Politics8=$Politics[count($Politics)-8];
+	$Politics8Length=strlen($Politics8)+1;
+	$Politics8.="/*";
+	$Politics8=glob($Politics8);
+	
+	$Politics8Pic=getPic($Politics8);
+ 	$Politics8Caption=getCaption($Politics8);
+	$Politics8Article=getArticle($Politics8);
+	$Politics8Title=getTitle($Politics8Article,$Politics8Length);
+	///END OF POLITICS----------------------------------------------------------------------->
+	//////////////////////////////////////////////////////////////////////////////////////////
+
+
+	
+	//WorldwideAffairs Section------------------------------------------------------------------------------>
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	$WorldwideAffairs = glob('archives/WorldwideAffairs/*');
+	
+	//WorldwideAffairs1
+	$WorldwideAffairs1=$WorldwideAffairs[count($WorldwideAffairs)-1];
+	$WorldwideAffairs1Length=strlen($WorldwideAffairs1)+1;
+	$WorldwideAffairs1.="/*";
+	$WorldwideAffairs1=glob($WorldwideAffairs1);
+	
+	$WorldwideAffairs1Pic=getPic($WorldwideAffairs1);
+ 	$WorldwideAffairs1Caption=getCaption($WorldwideAffairs1);
+	$WorldwideAffairs1Article=getArticle($WorldwideAffairs1);
+	$WorldwideAffairs1Title=getTitle($WorldwideAffairs1Article,$WorldwideAffairs1Length);
+	
+	//WorldwideAffairs2
+	$WorldwideAffairs2=$WorldwideAffairs[count($WorldwideAffairs)-2];
+	$WorldwideAffairs2Length=strlen($WorldwideAffairs2)+1;
+	$WorldwideAffairs2.="/*";
+	$WorldwideAffairs2=glob($WorldwideAffairs2);
+	
+	$WorldwideAffairs2Pic=getPic($WorldwideAffairs2);
+ 	$WorldwideAffairs2Caption=getCaption($WorldwideAffairs2);
+	$WorldwideAffairs2Article=getArticle($WorldwideAffairs2);
+	$WorldwideAffairs2Title=getTitle($WorldwideAffairs2Article,$WorldwideAffairs2Length);
+	
+	//WorldwideAffairs3
+	$WorldwideAffairs3=$WorldwideAffairs[count($WorldwideAffairs)-3];
+	$WorldwideAffairs3Length=strlen($WorldwideAffairs3)+1;
+	$WorldwideAffairs3.="/*";
+	$WorldwideAffairs3=glob($WorldwideAffairs3);
+	
+	$WorldwideAffairs3Pic=getPic($WorldwideAffairs3);
+ 	$WorldwideAffairs3Caption=getCaption($WorldwideAffairs3);
+	$WorldwideAffairs3Article=getArticle($WorldwideAffairs3);
+	$WorldwideAffairs3Title=getTitle($WorldwideAffairs3Article,$WorldwideAffairs3Length);
+	
+	//WorldwideAffairs4
+	$WorldwideAffairs4=$WorldwideAffairs[count($WorldwideAffairs)-4];
+	$WorldwideAffairs4Length=strlen($WorldwideAffairs4)+1;
+	$WorldwideAffairs4.="/*";
+	$WorldwideAffairs4=glob($WorldwideAffairs4);
+	
+	$WorldwideAffairs4Pic=getPic($WorldwideAffairs4);
+ 	$WorldwideAffairs4Caption=getCaption($WorldwideAffairs4);
+	$WorldwideAffairs4Article=getArticle($WorldwideAffairs4);
+	$WorldwideAffairs4Title=getTitle($WorldwideAffairs4Article,$WorldwideAffairs4Length);
+	
+	//WorldwideAffairs5
+	$WorldwideAffairs5=$WorldwideAffairs[count($WorldwideAffairs)-5];
+	$WorldwideAffairs5Length=strlen($WorldwideAffairs5)+1;
+	$WorldwideAffairs5.="/*";
+	$WorldwideAffairs5=glob($WorldwideAffairs5);
+	
+	$WorldwideAffairs5Pic=getPic($WorldwideAffairs5);
+ 	$WorldwideAffairs5Caption=getCaption($WorldwideAffairs5);
+	$WorldwideAffairs5Article=getArticle($WorldwideAffairs5);
+	$WorldwideAffairs5Title=getTitle($WorldwideAffairs5Article,$WorldwideAffairs5Length);
+	
+	//WorldwideAffairs6
+	$WorldwideAffairs6=$WorldwideAffairs[count($WorldwideAffairs)-6];
+	$WorldwideAffairs6Length=strlen($WorldwideAffairs6)+1;
+	$WorldwideAffairs6.="/*";
+	$WorldwideAffairs6=glob($WorldwideAffairs6);
+	
+	$WorldwideAffairs6Pic=getPic($WorldwideAffairs6);
+ 	$WorldwideAffairs6Caption=getCaption($WorldwideAffairs6);
+	$WorldwideAffairs6Article=getArticle($WorldwideAffairs6);
+	$WorldwideAffairs6Title=getTitle($WorldwideAffairs6Article,$WorldwideAffairs6Length);
+	
+	//WorldwideAffairs7
+	$WorldwideAffairs7=$WorldwideAffairs[count($WorldwideAffairs)-7];
+	$WorldwideAffairs7Length=strlen($WorldwideAffairs7)+1;
+	$WorldwideAffairs7.="/*";
+	$WorldwideAffairs7=glob($WorldwideAffairs7);
+	
+	$WorldwideAffairs7Pic=getPic($WorldwideAffairs7);
+ 	$WorldwideAffairs7Caption=getCaption($WorldwideAffairs7);
+	$WorldwideAffairs7Article=getArticle($WorldwideAffairs7);
+	$WorldwideAffairs7Title=getTitle($WorldwideAffairs7Article,$WorldwideAffairs7Length);
+	
+	//WorldwideAffairs8
+	$WorldwideAffairs8=$WorldwideAffairs[count($WorldwideAffairs)-8];
+	$WorldwideAffairs8Length=strlen($WorldwideAffairs8)+1;
+	$WorldwideAffairs8.="/*";
+	$WorldwideAffairs8=glob($WorldwideAffairs8);
+	
+	$WorldwideAffairs8Pic=getPic($WorldwideAffairs8);
+ 	$WorldwideAffairs8Caption=getCaption($WorldwideAffairs8);
+	$WorldwideAffairs8Article=getArticle($WorldwideAffairs8);
+	$WorldwideAffairs8Title=getTitle($WorldwideAffairs8Article,$WorldwideAffairs8Length);
+	///END OF WORLDWIDEAFFAIRS----------------------------------------------------------------------->
+	//////////////////////////////////////////////////////////////////////////////////////////
+
+
+	//PopCulture Section------------------------------------------------------------------------------>
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	$PopCulture = glob('archives/PopCulture/*');
+	
+	//PopCulture1
+	$PopCulture1=$PopCulture[count($PopCulture)-1];
+	$PopCulture1Length=strlen($PopCulture1)+1;
+	$PopCulture1.="/*";
+	$PopCulture1=glob($PopCulture1);
+	
+	$PopCulture1Pic=getPic($PopCulture1);
+ 	$PopCulture1Caption=getCaption($PopCulture1);
+	$PopCulture1Article=getArticle($PopCulture1);
+	$PopCulture1Title=getTitle($PopCulture1Article,$PopCulture1Length);
+	
+	//PopCulture2
+	$PopCulture2=$PopCulture[count($PopCulture)-2];
+	$PopCulture2Length=strlen($PopCulture2)+1;
+	$PopCulture2.="/*";
+	$PopCulture2=glob($PopCulture2);
+	
+	$PopCulture2Pic=getPic($PopCulture2);
+ 	$PopCulture2Caption=getCaption($PopCulture2);
+	$PopCulture2Article=getArticle($PopCulture2);
+	$PopCulture2Title=getTitle($PopCulture2Article,$PopCulture2Length);
+	
+	//PopCulture3
+	$PopCulture3=$PopCulture[count($PopCulture)-3];
+	$PopCulture3Length=strlen($PopCulture3)+1;
+	$PopCulture3.="/*";
+	$PopCulture3=glob($PopCulture3);
+	
+	$PopCulture3Pic=getPic($PopCulture3);
+ 	$PopCulture3Caption=getCaption($PopCulture3);
+	$PopCulture3Article=getArticle($PopCulture3);
+	$PopCulture3Title=getTitle($PopCulture3Article,$PopCulture3Length);
+	
+	//PopCulture4
+	$PopCulture4=$PopCulture[count($PopCulture)-4];
+	$PopCulture4Length=strlen($PopCulture4)+1;
+	$PopCulture4.="/*";
+	$PopCulture4=glob($PopCulture4);
+	
+	$PopCulture4Pic=getPic($PopCulture4);
+ 	$PopCulture4Caption=getCaption($PopCulture4);
+	$PopCulture4Article=getArticle($PopCulture4);
+	$PopCulture4Title=getTitle($PopCulture4Article,$PopCulture4Length);
+	
+	//PopCulture5
+	$PopCulture5=$PopCulture[count($PopCulture)-5];
+	$PopCulture5Length=strlen($PopCulture5)+1;
+	$PopCulture5.="/*";
+	$PopCulture5=glob($PopCulture5);
+	
+	$PopCulture5Pic=getPic($PopCulture5);
+ 	$PopCulture5Caption=getCaption($PopCulture5);
+	$PopCulture5Article=getArticle($PopCulture5);
+	$PopCulture5Title=getTitle($PopCulture5Article,$PopCulture5Length);
+	
+	//PopCulture6
+	$PopCulture6=$PopCulture[count($PopCulture)-6];
+	$PopCulture6Length=strlen($PopCulture6)+1;
+	$PopCulture6.="/*";
+	$PopCulture6=glob($PopCulture6);
+	
+	$PopCulture6Pic=getPic($PopCulture6);
+ 	$PopCulture6Caption=getCaption($PopCulture6);
+	$PopCulture6Article=getArticle($PopCulture6);
+	$PopCulture6Title=getTitle($PopCulture6Article,$PopCulture6Length);
+	
+	//PopCulture7
+	$PopCulture7=$PopCulture[count($PopCulture)-7];
+	$PopCulture7Length=strlen($PopCulture7)+1;
+	$PopCulture7.="/*";
+	$PopCulture7=glob($PopCulture7);
+	
+	$PopCulture7Pic=getPic($PopCulture7);
+ 	$PopCulture7Caption=getCaption($PopCulture7);
+	$PopCulture7Article=getArticle($PopCulture7);
+	$PopCulture7Title=getTitle($PopCulture7Article,$PopCulture7Length);
+	
+	//PopCulture8
+	$PopCulture8=$PopCulture[count($PopCulture)-8];
+	$PopCulture8Length=strlen($PopCulture8)+1;
+	$PopCulture8.="/*";
+	$PopCulture8=glob($PopCulture8);
+	
+	$PopCulture8Pic=getPic($PopCulture8);
+ 	$PopCulture8Caption=getCaption($PopCulture8);
+	$PopCulture8Article=getArticle($PopCulture8);
+	$PopCulture8Title=getTitle($PopCulture8Article,$PopCulture8Length);
+	///END OF POPCULTURE----------------------------------------------------------------------->
+	//////////////////////////////////////////////////////////////////////////////////////////
+
+
+	//Sports Section------------------------------------------------------------------------------>
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	$Sports = glob('archives/Sports/*');
+	
+	//Sports1
+	$Sports1=$Sports[count($Sports)-1];
+	$Sports1Length=strlen($Sports1)+1;
+	$Sports1.="/*";
+	$Sports1=glob($Sports1);
+	
+	$Sports1Pic=getPic($Sports1);
+ 	$Sports1Caption=getCaption($Sports1);
+	$Sports1Article=getArticle($Sports1);
+	$Sports1Title=getTitle($Sports1Article,$Sports1Length);
+	
+	//Sports2
+	$Sports2=$Sports[count($Sports)-2];
+	$Sports2Length=strlen($Sports2)+1;
+	$Sports2.="/*";
+	$Sports2=glob($Sports2);
+	
+	$Sports2Pic=getPic($Sports2);
+ 	$Sports2Caption=getCaption($Sports2);
+	$Sports2Article=getArticle($Sports2);
+	$Sports2Title=getTitle($Sports2Article,$Sports2Length);
+	
+	//Sports3
+	$Sports3=$Sports[count($Sports)-3];
+	$Sports3Length=strlen($Sports3)+1;
+	$Sports3.="/*";
+	$Sports3=glob($Sports3);
+	
+	$Sports3Pic=getPic($Sports3);
+ 	$Sports3Caption=getCaption($Sports3);
+	$Sports3Article=getArticle($Sports3);
+	$Sports3Title=getTitle($Sports3Article,$Sports3Length);
+	
+	//Sports4
+	$Sports4=$Sports[count($Sports)-4];
+	$Sports4Length=strlen($Sports4)+1;
+	$Sports4.="/*";
+	$Sports4=glob($Sports4);
+	
+	$Sports4Pic=getPic($Sports4);
+ 	$Sports4Caption=getCaption($Sports4);
+	$Sports4Article=getArticle($Sports4);
+	$Sports4Title=getTitle($Sports4Article,$Sports4Length);
+	
+	//Sports5
+	$Sports5=$Sports[count($Sports)-5];
+	$Sports5Length=strlen($Sports5)+1;
+	$Sports5.="/*";
+	$Sports5=glob($Sports5);
+	
+	$Sports5Pic=getPic($Sports5);
+ 	$Sports5Caption=getCaption($Sports5);
+	$Sports5Article=getArticle($Sports5);
+	$Sports5Title=getTitle($Sports5Article,$Sports5Length);
+	
+	//Sports6
+	$Sports6=$Sports[count($Sports)-6];
+	$Sports6Length=strlen($Sports6)+1;
+	$Sports6.="/*";
+	$Sports6=glob($Sports6);
+	
+	$Sports6Pic=getPic($Sports6);
+ 	$Sports6Caption=getCaption($Sports6);
+	$Sports6Article=getArticle($Sports6);
+	$Sports6Title=getTitle($Sports6Article,$Sports6Length);
+	
+	//Sports7
+	$Sports7=$Sports[count($Sports)-7];
+	$Sports7Length=strlen($Sports7)+1;
+	$Sports7.="/*";
+	$Sports7=glob($Sports7);
+	
+	$Sports7Pic=getPic($Sports7);
+ 	$Sports7Caption=getCaption($Sports7);
+	$Sports7Article=getArticle($Sports7);
+	$Sports7Title=getTitle($Sports7Article,$Sports7Length);
+	
+	//Sports8
+	$Sports8=$Sports[count($Sports)-8];
+	$Sports8Length=strlen($Sports8)+1;
+	$Sports8.="/*";
+	$Sports8=glob($Sports8);
+	
+	$Sports8Pic=getPic($Sports8);
+ 	$Sports8Caption=getCaption($Sports8);
+	$Sports8Article=getArticle($Sports8);
+	$Sports8Title=getTitle($Sports8Article,$Sports8Length);
+	///END OF SPORTS----------------------------------------------------------------------->
+	//////////////////////////////////////////////////////////////////////////////////////////
+	
+	
+	//Comics Section------------------------------------------------------------------------------>
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	$Comics = glob('archives/Comics/*');
+	
+	//Comics1
+	$Comics1=$Comics[count($Comics)-1];
+	$Comics1Length=strlen($Comics1)+1;
+	$Comics1.="/*";
+	$Comics1=glob($Comics1);
+	
+	$Comics1Pic=getPic($Comics1);
+ 	$Comics1Caption=getCaption($Comics1);
+	$Comics1Article=getArticle($Comics1);
+	$Comics1Title=getTitle($Comics1Article,$Comics1Length);
+	
+	//Comics2
+	$Comics2=$Comics[count($Comics)-2];
+	$Comics2Length=strlen($Comics2)+1;
+	$Comics2.="/*";
+	$Comics2=glob($Comics2);
+	
+	$Comics2Pic=getPic($Comics2);
+ 	$Comics2Caption=getCaption($Comics2);
+	$Comics2Article=getArticle($Comics2);
+	$Comics2Title=getTitle($Comics2Article,$Comics2Length);
+	
+	//Comics3
+	$Comics3=$Comics[count($Comics)-3];
+	$Comics3Length=strlen($Comics3)+1;
+	$Comics3.="/*";
+	$Comics3=glob($Comics3);
+	
+	$Comics3Pic=getPic($Comics3);
+ 	$Comics3Caption=getCaption($Comics3);
+	$Comics3Article=getArticle($Comics3);
+	$Comics3Title=getTitle($Comics3Article,$Comics3Length);
+	
+	//Comics4
+	$Comics4=$Comics[count($Comics)-4];
+	$Comics4Length=strlen($Comics4)+1;
+	$Comics4.="/*";
+	$Comics4=glob($Comics4);
+	
+	$Comics4Pic=getPic($Comics4);
+ 	$Comics4Caption=getCaption($Comics4);
+	$Comics4Article=getArticle($Comics4);
+	$Comics4Title=getTitle($Comics4Article,$Comics4Length);
+	
+	//Comics5
+	$Comics5=$Comics[count($Comics)-5];
+	$Comics5Length=strlen($Comics5)+1;
+	$Comics5.="/*";
+	$Comics5=glob($Comics5);
+	
+	$Comics5Pic=getPic($Comics5);
+ 	$Comics5Caption=getCaption($Comics5);
+	$Comics5Article=getArticle($Comics5);
+	$Comics5Title=getTitle($Comics5Article,$Comics5Length);
+	
+	//Comics6
+	$Comics6=$Comics[count($Comics)-6];
+	$Comics6Length=strlen($Comics6)+1;
+	$Comics6.="/*";
+	$Comics6=glob($Comics6);
+	
+	$Comics6Pic=getPic($Comics6);
+ 	$Comics6Caption=getCaption($Comics6);
+	$Comics6Article=getArticle($Comics6);
+	$Comics6Title=getTitle($Comics6Article,$Comics6Length);
+	
+	//Comics7
+	$Comics7=$Comics[count($Comics)-7];
+	$Comics7Length=strlen($Comics7)+1;
+	$Comics7.="/*";
+	$Comics7=glob($Comics7);
+	
+	$Comics7Pic=getPic($Comics7);
+ 	$Comics7Caption=getCaption($Comics7);
+	$Comics7Article=getArticle($Comics7);
+	$Comics7Title=getTitle($Comics7Article,$Comics7Length);
+	
+	//Comics8
+	$Comics8=$Comics[count($Comics)-8];
+	$Comics8Length=strlen($Comics8)+1;
+	$Comics8.="/*";
+	$Comics8=glob($Comics8);
+	
+	$Comics8Pic=getPic($Comics8);
+ 	$Comics8Caption=getCaption($Comics8);
+	$Comics8Article=getArticle($Comics8);
+	$Comics8Title=getTitle($Comics8Article,$Comics8Length);
+	///END OF COMICS----------------------------------------------------------------------->
+	//////////////////////////////////////////////////////////////////////////////////////////
+
+	
+	//Function to get all folder paths in each directory
+	$Car=glob('archives/Carleton/*');
+	$World=glob('archives/WorldwideAffairs/*');
+	$Sp=glob('archives/Sports/*');
+	$Com=glob('archives/Comics/*');
+	$Po=glob('archives/Politics/*');
+	$Pop=glob('archives/PopCulture/*');
+	
+	$All=array_merge($Car,$World,$Sp,$Com,$Po,$Pop);
+	sort($All);
+	
+	//All1
+	$All1=$All[count($All)-1];
+	$All1Length=strlen($All1)+1;
+	$All1.="/*";
+	$All1=glob($All1);
+	
+	$All1Pic=getPic($All1);
+ 	$All1Caption=getCaption($All1);
+	$All1Article=getArticle($All1);
+	$All1Title=getTitle($All1Article,$All1Length);
+	
+	//All2
+	$All2=$All[count($All)-2];
+	$All2Length=strlen($All2)+1;
+	$All2.="/*";
+	$All2=glob($All2);
+	
+	$All2Pic=getPic($All2);
+ 	$All2Caption=getCaption($All2);
+	$All2Article=getArticle($All2);
+	$All2Title=getTitle($All2Article,$All2Length);
+	
+	//All3
+	$All3=$All[count($All)-3];
+	$All3Length=strlen($All3)+1;
+	$All3.="/*";
+	$All3=glob($All3);
+	
+	$All3Pic=getPic($All3);
+ 	$All3Caption=getCaption($All3);
+	$All3Article=getArticle($All3);
+	$All3Title=getTitle($All3Article,$All3Length);
+	
+	//All4
+	$All4=$All[count($All)-4];
+	$All4Length=strlen($All4)+1;
+	$All4.="/*";
+	$All4=glob($All4);
+	
+	$All4Pic=getPic($All4);
+ 	$All4Caption=getCaption($All4);
+	$All4Article=getArticle($All4);
+	$All4Title=getTitle($All4Article,$All4Length);
+	
+	//All5
+	$All5=$All[count($All)-5];
+	$All5Length=strlen($All5)+1;
+	$All5.="/*";
+	$All5=glob($All5);
+	
+	$All5Pic=getPic($All5);
+ 	$All5Caption=getCaption($All5);
+	$All5Article=getArticle($All5);
+	$All5Title=getTitle($All5Article,$All5Length);
+	
+	//All6
+	$All6=$All[count($All)-6];
+	$All6Length=strlen($All6)+1;
+	$All6.="/*";
+	$All6=glob($All6);
+	
+	$All6Pic=getPic($All6);
+ 	$All6Caption=getCaption($All6);
+	$All6Article=getArticle($All6);
+	$All6Title=getTitle($All6Article,$All6Length);
+	
+	//All7
+	$All7=$All[count($All)-7];
+	$All7Length=strlen($All7)+1;
+	$All7.="/*";
+	$All7=glob($All7);
+	
+	$All7Pic=getPic($All7);
+ 	$All7Caption=getCaption($All7);
+	$All7Article=getArticle($All7);
+	$All7Title=getTitle($All7Article,$All7Length);
+	
+	//All8
+	$All8=$All[count($All)-8];
+	$All8Length=strlen($All8)+1;
+	$All8.="/*";
+	$All8=glob($All8);
+	
+	$All8Pic=getPic($All8);
+ 	$All8Caption=getCaption($All8);
+	$All8Article=getArticle($All8);
+	$All8Title=getTitle($All8Article,$All8Length);
+
+	?>

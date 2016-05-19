@@ -1,0 +1,4 @@
+<li>With B,B,B, comp2 guessed 0 colours.</li>
+<li>With R,R,G, josh guessed 1 colours.</li>
+<li>With G,R,R, comp2 guessed 1 colours.</li>
+<li>With G,R,B, comp2 guessed 0 colours.</li>

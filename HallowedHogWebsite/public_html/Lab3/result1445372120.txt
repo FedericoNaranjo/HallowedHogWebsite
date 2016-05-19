@@ -1,0 +1,7 @@
+<li>With R,B,G, a guessed 0 colours.</li>
+<li>With G,R,B, a guessed 1 colours.</li>
+<li>With R,R,R, a guessed 0 colours.</li>
+<li>With G,R,G, a guessed 0 colours.</li>
+<li>With G,G,B, a guessed 2 colours.</li>
+<li>With B,G,B, a guessed 3 colours.</li>
+GAME OVER,aWINS!

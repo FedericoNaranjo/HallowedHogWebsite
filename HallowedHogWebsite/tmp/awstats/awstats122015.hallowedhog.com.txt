@@ -1,0 +1,775 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201512 will be lost/reset.
+# Last config file used to build this data file was /home/hallowedhog/tmp/awstats/awstats.hallowedhog.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2015                
+POS_TIME 2693                
+POS_VISITOR 18848               
+POS_DAY 24669               
+POS_DOMAIN 3594                
+POS_LOGIN 4144                
+POS_ROBOT 4299                
+POS_WORMS 4854                
+POS_EMAILSENDER 4985                
+POS_EMAILRECEIVER 5128                
+POS_SESSION 25546               
+POS_SIDER 25755               
+POS_FILETYPES 5263                
+POS_DOWNLOADS 5530                
+POS_OS 10747               
+POS_BROWSER 11173               
+POS_SCREENSIZE 12438               
+POS_UNKNOWNREFERER 12512               
+POS_UNKNOWNREFERERBROWSER 13089               
+POS_ORIGIN 13494               
+POS_SEREFERRALS 13639               
+POS_PAGEREFS 13816               
+POS_SEARCHWORDS 17078               
+POS_KEYWORDS 17230               
+POS_MISC 2357                
+POS_ERRORS 17289               
+POS_CLUSTER 4000                
+POS_SIDER_404 17390               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160101000957 65 15091 9406782747824
+FirstTime 20151201021847
+LastTime 20151231184659
+LastUpdate 20160101052224 65 0 64 0 0
+TotalVisits 352                 
+TotalUnique 114                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 155                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 60 72 738251 35 89 2683625
+1 22 23 365252 32 68 1347725
+2 32 65 2944920 37 96 3178467
+3 39 40 541363 23 58 2729087
+4 32 32 341406 42 92 2742154
+5 18 29 743056 64 121 3372700
+6 37 82 3969685 56 109 5553998
+7 75 121 17213932 29 84 10128113
+8 47 123 13672368 38 71 2192792
+9 29 82 13083849 32 68 2685512
+10 60 165 28406705 36 92 2946000
+11 53 168 25838189 60 158 8174711
+12 113 389 62222441 19 98 12850331
+13 81 255 39872542 36 122 11699315
+14 109 228 19256888 34 125 19636301
+15 94 253 44960875 33 92 4006855
+16 32 59 8723678 26 63 18184261
+17 58 153 38428705 22 75 2717102
+18 103 343 60943522 15 74 4133454
+19 108 530 28549857 10 44 1652361
+20 62 151 22664138 26 62 3651937
+21 46 124 27966093 33 70 3643989
+22 58 137 12350855 31 87 9744636
+23 62 168 23923154 31 89 3943412
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 22
+ca 605 2523 416078622
+ua 603 604 6530828
+us 134 294 33337045
+zz 30 80 7323198
+br 13 107 15407356
+ru 9 42 772156
+de 7 7 77231
+fr 5 5 53415
+it 5 21 2291950
+pt 3 26 3334824
+kr 3 26 3334824
+mx 3 19 2271108
+sk 3 26 3334824
+nl 2 2 20587
+il 1 1 10785
+tw 1 1 10785
+my 1 1 10530
+no 1 1 10530
+ie 1 3 449081
+ro 0 1 25458
+pk 0 1 137471
+se 0 1 156587
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bot[\s_+:,\.\;\/\\-] 891 54297786 20151231221359 0
+googlebot 265 7581541 20151231201550 0
+spider 92 1375543 20151231210551 0
+bingpreview 80 16747710 20151223132537 0
+google[_+\s]web[_+\s]preview 66 11600896 20151221231045 0
+php 57 23506197 20151222165227 0
+[\s_+:,\.\;\/\\-]bot 22 11525098 20151231230257 0
+googlebot\-image 21 8970196 20151227021513 0
+crawl 5 47720 20151230144646 0
+no_user_agent 2 21060 20151209105856 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 540 1314995 0 0
+png 271 41063030 0 0
+pdf 47 13267137 0 0
+php 520 3268915 0 0
+html 910 8987802 0 0
+docx 11 1812089 0 0
+js 477 8605427 0 0
+jpg 797 412850904 0 0
+jpeg 36 3203024 0 0
+gif 183 605872 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 46
+/resources/TheConstitutionofTheHallowedHog.docx 29 0 608652
+/resources/GuidetoArticleCreation.docx 22 0 350372
+/archives/Carleton/2015-09-22+First+Years+Required+to+Wear+Helmets+Knee+Pads/First+Years+Required+to+Wear+Helmets,+Kneepads.pdf 16 0 1018880
+/archives/WorldwideAffairs/2015-09-14+Local+Frat+Announces+it+is+Leaving+the+Patriarchy/Local+Frat+Announces+it+is+Leaving+the+Patriarchy.pdf 16 0 1802864
+/archives/Politics/2015-11-23+Justin+Trudeau+to+Legalize+Marijuana+Through+Joint+Operations/Justin+Trudeau+to+Legalize+Marijuana+Through+Joint+Operations.pdf 16 0 4078832
+/archives/PopCulture/2015-11-23+The+Death+of+Iggy/The+Death+of+Iggy.pdf 16 0 4529392
+/archives/Carleton/2015-11-09+Breaking+Issue+3/Breaking+Issue+3.pdf 16 0 5666832
+/resources/Templates/SplitPicRight.docx 16 0 2297376
+/archives/Politics/2015-10-12+Meet+Your+Political+Animals/Meet+Your+Political+Animals.pdf 14 0 1184064
+/resources/Templates/NormalPicLeft.docx 14 2 2150243
+/archives/Politics/2015-11-16+Anti-life+death+cult,+Pro-+life+protestors+clash+at+rally/Anti-life+death+cult,+Pro-+Life+protestors+clash.pdf 14 0 3150420
+/resources/Templates/NormalPicRight.docx 14 0 2007614
+/archives/Sports/2015-11-09+Edmontons+Grade-A+Conspiracy/Edmontons+Grade-A+Conspiracy.pdf 14 2 2541435
+/resources/Templates/MultiPic.docx 14 0 2003890
+/archives/Politics/2015-09-13+BREAKING+Unraveling+the+Trudeau+Wynne+Sex+Tape/BREAKING+Unraveling+the+Trudeau+Wynne+Sex+Tape.pdf 14 1 1844746
+/archives/WorldwideAffairs/2015-11-09+NASA+Scientists+Discover+Giant+Floating+Object+in+Solar+System/NASA+Scientists+Discover+Giant+Floating+Object+in+Solar+System.pdf 13 0 1109511
+/resources/Templates/EmphasisSplit.docx 13 0 4910438
+/archives/Sports/2015-10-06+Panda+Mauls+Ottawa+U+Team/Panda+Mauls+Ottawa+U+Team.pdf 13 0 1101373
+/archives/Comics/2015-10-12+Dairy+Protest/Comic+-+Dairy+Protest.pdf 13 0 546793
+/resources/Templates/Emphasis.docx 13 2 5286669
+/resources/HallowedHogEditorsGuide.docx 12 0 203784
+/archives/Politics/2015-09-22+Trump+Announces+Foxy+Running+Mate/Trump+Announces+Foxy+Running+Mate.pdf 11 0 1526382
+/archives/Carleton/2015-10-02+Carleton+Suspends+Cutlery/Carleton+Dining+Services+Suspends+Use+of+Cutlery+in+Dining+Hall.pdf 8 2 3879621
+/archives/Sports/2015-12-04+UFC+Scouting+Fighters+Out+of+Black+Friday+Shoppers/UFC+Scouting+Fighters+Out+of+Black+Friday+Shoppers.pdf 7 1 2133982
+/archives/Carleton/2015-11-23+Run+Away+Rodney/Run+Away+Rodney.pdf 7 0 1561364
+/archives/Carleton/2015-10-06+Carleton+Selling+Smokes+On+Campus+Again/Carleton+Selling+Smokes+on+Campus+Again.pdf 5 0 409370
+/archives/PopCulture/2015-12-04+Starbucks+Fights+Back+Against+War+on+Christmas/Starbucks+Fights+Back+Against+War+on+Christmas.pdf 5 0 1660595
+/archives/Carleton/2015-09-30+Teacher+fired+for+copying+anti-plagiarism+guidelines/Teacher+fired+for+copying+anti-plagiarism+guidelines.pdf 4 0 1250184
+/archives/WorldwideAffairs/2015-12-04+Officer+Claims+He+Had+Difficulty+Guaranteeing+Suspect+Was+Black+Before+Shooting/Officer+Claims+He+Had+Difficulty+Guaranteeing+Suspect+Was+Black+Before+Shooting.pdf 4 4 2181150
+/archives/Carleton/2015-09-14+Man+who+designed+Architecture+Building+to+stand+trial/Man+who+designed+Architecture+Building+to+stand+trial.pdf 4 0 1562260
+/archives/Carleton/2015-11-06+Nesrallah+Honoured+by+University+Tribute/Nesrallah+Honoured+by+University+Tribute.pdf 4 0 284148
+/archives/Sports/2015-12-05+According+to+sources+local+man+could+coach+team+better+than+professionals/According+to+sources+local+man+could+coach+team+better+than+professionals.pdf 4 2 1708780
+/archives/WorldwideAffairs/2015-12-05+Local+man+ignorant+of+all+he+does+not+have/Local+man+ignorant+of+all+he+does+not+have.pdf 3 2 1254264
+/archives/Carleton/2015-09-22+Foot+Patrol+to+Operate+as+Delivery+Service/Foot+Patrol+to+Operate+as+Delivery+Service.pdf 3 0 223854
+/archives/PopCulture/2015-11-09+Lil+Dicky+is+a+Professional+Rapper/Lil+Dicky+is+a+Professional+Rapper.pdf 3 0 303093
+/archives/PopCulture/2015-11-09+The+Spookiest+Costumes+This+Hallows+Eve/The+Spookiest+Costumes+This+Hallows+Eve.pdf 2 0 169094
+/archives/Sports/2015-10-12+Show+The+World+How+Much+You+Love+BJS/Show+The+World+How+Much+You+Love+BJS.pdf 2 0 167990
+/archives/Sports/2015-09-14+Man+given+nobel+prize+after+discovering+what+GeeGee+is/Man+given+nobel+prize+after+discovering+what+GeeGee+is.pdf 2 0 622078
+/archives/PopCulture/2015-11-23+Local+Musician+Combating+Homophobia+With+a+Weave/Local+Musician+Combating+Homophobia+With+a+Weave.pdf 2 0 573986
+/archives/Comics/2015-09-24+Mole-asses/Comic-Mole-asses.pdf 2 0 350756
+/archives/Carleton/2015-09-09+Carleton+Assuages+Fears/Carleton+Assuages+Fears,+Campus+Animals+Safe+to+Eat.pdf 2 0 482744
+/archives/Carleton/2015-10-12+Local+Group+Seeks+To+End+Solicitation/Local+GroupSeeks+to+End+Solicitation+On+Campus.pdf 2 0 125168
+/archives/Carleton/2015-10-06+'GUSA'+Is+Officially+Back+Together/'GUSA'+Is+Officially+Back+Together.pdf 2 0 191606
+/archives/Comics/2015-09-24+Happy+Soccer+Field/Comic+-+Happy+Soccer+Field.pdf 1 0 207328
+/archives/Comics/2015-10-12+Underground+Election/Comic+-+Underground+Election.pdf 1 0 64536
+/archives/Comics/2015-11-09+Halloween+Scare/Halloween+Scare.pdf 1 0 210083
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 27
+linuxandroid 92 14
+blackberry 2 2
+winlong 17 17
+macosx6 1 0
+winxp 444 395
+ios_iphone 194 38
+win2000 75 75
+winunknown 18 18
+win95 6 6
+wince 3 3
+win2003 48 46
+win8 4 2
+macosx9 948 308
+ios_ipad 13 2
+macosx7 1 0
+unix 8 6
+winnt 849 167
+win98 30 30
+linuxubuntu 1 1
+linux 53 30
+win7 610 127
+winme 18 18
+win16 3 3
+macosx 54 20
+Unknown 142 45
+win8.1 175 57
+macosx8 1 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 66
+chrome27.0.1453.94 1 0
+chrome44.0.2403.125 1 1
+msie6.0 346 346
+opera6.0 3 3
+msie8.0 80 24
+chrome42.0.2311.90 54 14
+opera7.60 6 6
+firefox43.0 1 0
+netscape3.0 6 6
+msie7.0 41 38
+chrome37.0.2062.120 14 14
+firefox41.0 1 1
+opera9.0 15 15
+opera6.01 3 3
+chrome45.0.2454.99 1 1
+opera7.11 15 15
+firefox40.0 1 0
+firefox42.0 120 12
+opera9.01 6 6
+firefox38.0 1 1
+chrome47.0.2526.73 918 302
+chrome32.0.1700.107 26 3
+chrome49.0.2588.0 1 1
+netscape0.6 6 6
+chrome36.0.1985.143 121 15
+chrome47.0.2526.106 109 21
+mozilla 68 45
+firefox14.0.1 9 9
+chrome42.0.2311.135 3 0
+chrome46.0.2490.86 507 128
+opera8.50 6 6
+safari 109 28
+safari7.0 1 0
+chrome23.0.1271.64 1 1
+android 1 1
+opera9.00 9 9
+chrome12.0.742.112 1 1
+msie3.02 3 3
+netscape4.76 6 6
+chrome46.0.2490.76 29 4
+chrome47.0.2526.76 35 5
+chrome47.0.2526.80 610 89
+netscape0.91 12 12
+msie2.0 14 14
+safari8.0 20 10
+msie5.0 12 12
+Unknown 35 20
+opera7.54 6 6
+chrome47.0.2526.83 26 3
+chrome11.0.697.0 1 1
+blackberry 2 2
+netscape4.61 6 6
+chrome46.0.2490.82 2 0
+safari8.0.5 1 0
+opera8.00 22 22
+opera8.01 33 33
+msie5.5 32 32
+chrome43.0.2357.130 63 16
+netscape4.79 3 3
+msie11.0 46 9
+chrome18.0.1025.133 1 1
+safari9.0 85 10
+chrome35.0.1916.153 73 9
+msie10.0 1 1
+firefox6.0 16 16
+opera7.02 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+facebookexternalhit/1.1 20151206172816
+Scrapy/1.0.3_(_http://scrapy.org) 20151205222221
+visionutils/0.2 20151217124539
+semanticbot 20151221001445
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20151230143048
+null 20151230001356
+Google_favicon 20151208122627
+Mozilla/5.0_(Android_4.4.4;_Mobile;_rv:42.0)_Gecko/42.0_Firefox/42.0 20151209183537
+Kerrigan/2.0_(kerrigan@mashable.com) 20151229030911
+Mozilla/4.0_(compatible;_Synapse) 20151205080927
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+facebookexternalhit/1.1 20151206172816
+Scrapy/1.0.3_(_http://scrapy.org) 20151205222221
+visionutils/0.2 20151217124539
+python-requests/2.5.3_CPython/2.7.6_Linux/3.16.0-43-generic 20151221001423
+semanticbot 20151221001445
+null 20151230001356
+Google_favicon 20151208122627
+Kerrigan/2.0_(kerrigan@mashable.com) 20151229030911
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 269 290
+From1 0 0
+From2 18 44
+From3 634 634
+From4 509 2842
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 15 41
+bing 1 1
+yandex 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 115
+http://womensterritory.ru 18 18
+http://www.moscow-region.ru 15 15
+http://forum.poker4life.ru 15 15
+http://sdi-pme.com 12 12
+http://slonechka.ru 12 12
+http://aftermarket.7zap.com 12 12
+http://detskie-zabavi.ru 12 12
+http://rankings-analytics.com/try.php 10 10
+http://brendbutik.ru 9 9
+http://expertnaya-ocenka.ru 9 9
+http://www.micasainvest.com 9 9
+http://platesauto.com 9 9
+http://www.rvtv.ru 9 9
+http://origin-my.ru 9 9
+http://ublaze.ru 9 9
+http://lirunet.ru 9 9
+http://www.sexkrasivo.net 9 9
+http://vozbujdenie.com 9 9
+http://jm-aj.com 9 9
+https://steelmaster.lv 9 9
+http://na15.ru 9 9
+http://alphaforum.ru 9 9
+http://electricwheelchairsfind.com 9 9
+http://fealq.com 8 8
+http://stariy-baku.com 8 8
+http://auto4style.ru 3 3
+http://vekzdorov.ru 3 3
+http://lenoreno.com/news.php 3 3
+http://shtaketniki.ru 5 5
+http://prometeimd.com 6 6
+http://mriyadh.com 5 5
+http://horoshieokna.com 6 6
+http://privatov-zapisi.ru/home/ 5 5
+http://www.yugo-star.ru 6 6
+http://cinemaenergy-hd.ru 2 2
+http://ledekole.com 3 3
+http://www.ekspertmed.com 3 3
+http://energy-ua.com 3 3
+http://cardul.ru 5 5
+http://berlininsl.com 3 3
+http://recsil.org 3 3
+http://wheelchairliftfind.com 3 3
+http://burger-imperia.com 6 6
+http://dentuled.net 6 6
+http://wallpapers-best.com 6 6
+http://www.facebook.com/l.php 1 1
+http://gta-top.ru 7 7
+http://tytoona.com 3 3
+http://doeco.ru 3 3
+http://azbukadiets.ru 3 3
+http://chcu.net/porno-video-2016/ 6 6
+http://wzgyyq.com 6 6
+http://xn--b1agm2d.net 6 6
+http://healmytrauma.info 6 6
+http://brothers-smaller.ru 6 6
+http://gardene.ru 6 6
+http://sims-sims.ru 7 7
+http://numrinje.com 6 6
+http://zebradudka.com 3 3
+http://na-telefon.biz 3 3
+http://labplus.ru 3 3
+http://gta-club.ru 6 6
+http://www.hdfreeporno.net 6 6
+http://azazu.ru 2 2
+http://xn--80ahvj9e.xn--p1ai 6 6
+http://karadene.com 1 1
+http://kino-filmi.com 3 3
+http://ecookna.com.ua 2 2
+http://1kinobig.ru 6 6
+http://la-fa.ru 6 6
+http://hvd-store.com 3 3
+http://best-seo-report.com 2 2
+http://pronekut.com 3 3
+http://delayreferat.ru 3 3
+http://flprog.com 3 3
+http://xn--80ajjbdhgmudixfjc8c5a9df8b.xn--p1ai 3 3
+https://www.facebook.com 7 7
+http://hundejo.com 1 1
+http://nagdak.ru 3 3
+http://filmidivx.com 3 3
+http://fanoboi.com 2 2
+http://ccpfy.net/porno-hd-2016/ 6 6
+http://vsesubwaysurfers.com 3 3
+http://wdfdocando.com 3 3
+http://infazavr.ru 3 3
+http://autonew.biz 6 6
+http://alepcable.com 6 6
+http://hyipmanager.in 3 3
+http://buttons-for-website.com 1 1
+http://finstroy.net 3 3
+http://lost-alpha.ru 6 6
+http://sachaan.com 6 6
+http://cmd.kz 6 6
+http://modabutik.ru 2 2
+http://www.24videos.tv 6 6
+http://bodybuilding-shop.biz 3 3
+http://5elementov.ru 6 6
+http://pizza-imperia.com 2 2
+http://catalogs-parts.com 3 3
+http://blogos.kz 3 3
+http://dimkino.ru/tureckie-seriali 4 4
+http://best-funnycatsanddogs.com 5 5
+http://pornogig.com 6 6
+http://mitrasound.ru 6 6
+http://pornoforadult.com 3 3
+http://gdcentre.ru 3 3
+http://memovn.com 3 3
+http://stairliftsfind.com 3 3
+http://light.ifmo.ru/en/ 6 6
+http://www.sarafangel.ru 6 6
+http://elvel.com.ua 3 3
+http://rabotaetvse.ru 6 6
+http://alborzan.com 6 6
+http://liquimondo.com 6 6
+http://realnye-otzyvy.info 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 58 7925091
+404 464 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 29
+/m/archives/Politics/2015-09-13+BREAKING+Unraveling+the+Trudeau+Wynne+Sex+Tape/BREAKING+Unraveling+the+Trudeau+Wynne+Sex+Tape.pdf 3 -
+/wp-content/plugins/Login-wall-etgFB/login_wall.php 1 www.hallowedhog.com
+/js/lib/ccard.js 1 -
+/robots.txt 401 -
+/favicon.gif 1 -
+/WorldwideAffairs.php 4 -
+/administrator/index.php 2 -
+/popculture.php 1 -
+/archives/Carleton/2015-10-06 2 -
+/mobile/ 4 -
+/sports.php 1 -
+/templates/system/css/error.css 1 -
+/comics.php 1 -
+/mobile/archives/Politics/2015-09-13+BREAKING+Unraveling+the+Trudeau+Wynne+Sex+Tape/BREAKING+Unraveling+the+Trudeau+Wynne+Sex+Tape.pdf 3 -
+/archives/ 1 -
+/politics.php 1 -
+/worldwideaffairs.php 1 -
+/memberresources.php 1 -
+/archives/WorldwideAffairs/2015-12-14+Turkey+shoots+down+Russian+jet+,and+theyre+totally+cool+with+it/Turkey+shoots+down+Russian+jet,+ 6 -
+/carleton.php 1 -
+/administrator 1 -
+/m/ 4 -
+/wp-content/plugins/wp-footers.php 1 http://www.googlebot.com/bot.html
+/browserconfig.xml 1 -
+/wp-login.php 9 -
+/Lab3/page.html 7 -
+/favicon.png 1 -
+/archives/Carleton/2014-08-04+Carleton+One/Carleton+One+Picture.png 2 -
+/archives/Comics/2014-08-04+Comics+One/Comics+One+Picture.png 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 155
+46.118.153.165 123 123 1317375 20151227150837
+134.249.52.203 122 122 1306845 20151227103221
+134.117.249.67 105 206 20472647 20151211145443
+178.137.160.2 91 91 981435 20151231131627
+134.117.249.115 75 239 32088302 20151216121851
+174.112.205.192 64 482 18940215 20151217201907
+69.165.143.170 55 164 42760903 20151215131439
+46.118.226.141 54 54 572091 20151230155757
+178.137.165.96 48 48 505440 20151214184838
+178.137.89.181 45 45 461313 20151208150952
+46.118.123.53 44 44 452597 20151208222249
+134.117.250.2 43 149 20117578 20151213121508
+216.121.240.82 43 189 50361846 20151231184659
+134.117.249.83 33 95 20019284 20151213093543
+46.118.112.74 24 24 245781 20151207073900
+75.98.19.132 21 116 12353499 20151207154132
+134.117.249.237 19 61 3378352 20151207190214
+24.140.224.22 17 42 3551208 20151202200901
+134.117.196.11 17 69 6473245 20151204133448
+167.114.174.95 17 17 144269 20151230143049
+178.137.89.157 17 17 183345 20151231171136
+135.23.112.18 16 66 10526217 20151215075241
+134.117.196.29 16 63 12288182 20151208183017
+76.10.140.74 15 127 42224543 20151220233831
+134.117.97.219 15 87 28472707 20151212212637
+134.117.249.17 5 35 10430978 20151209152204
+66.249.83.103 1 1 10785 20151216104848
+173.35.83.129 0 1 32083 
+81.218.200.61 1 1 10785 20151216095226
+91.47.242.10 1 1 10530 20151208225822
+69.58.178.56 11 11 97943 20151217033813
+173.252.115.85 0 2 443878 
+216.58.98.220 0 1 137471 
+177.179.154.75 3 24 8866065 20151208151235
+66.249.85.200 6 6 57763 20151217103249
+107.172.183.170 1 1 10070 20151205031824
+177.84.227.226 1 11 149603 20151201054544
+31.13.102.121 1 1 4835 20151206172812
+174.112.76.34 0 1 50099 
+98.114.251.106 1 1 10530 20151209004104
+179.99.192.78 3 21 2513971 20151201183753
+31.13.102.105 0 1 131072 
+134.117.249.3 8 90 18077349 20151209183537
+37.1.202.50 1 1 10785 20151219053454
+95.26.240.170 3 19 290706 20151219064656
+212.5.89.13 0 1 169429 
+77.247.181.165 1 1 10530 20151209151751
+69.157.114.144 4 27 8873021 20151210205336
+151.80.41.241 1 1 10057 20151201200937
+208.42.251.123 1 1 10785 20151230030922
+217.12.202.115 1 1 10057 20151202230851
+67.70.70.141 2 13 305815 20151210125234
+99.246.178.100 3 26 3334824 20151204120018
+31.13.109.122 0 1 156587 
+65.110.219.127 4 22 828849 20151204123006
+184.151.63.231 0 1 415276 
+68.103.155.164 0 1 50099 
+195.91.152.254 1 1 10785 20151215222645
+63.152.241.168 0 1 46517 
+54.84.73.107 1 1 4769 20151229030911
+31.13.109.120 0 1 156587 
+8.28.155.40 0 1 86235 
+31.15.38.79 0 1 156587 
+188.218.107.131 3 19 2271108 20151201105913
+54.209.90.47 2 2 9538 20151220034754
+66.249.83.101 1 1 10530 20151214165752
+189.133.79.69 3 19 2271108 20151202214100
+199.119.235.232 0 1 50099 
+1.9.96.205 1 1 10530 20151210174854
+192.99.2.137 1 1 10057 20151202071454
+177.11.4.243 1 11 149603 20151203021329
+70.215.2.16 0 1 101031 
+178.166.64.123 3 26 3334824 20151201152459
+173.252.88.246 0 1 221939 
+194.150.168.95 1 1 10530 20151209151156
+107.77.100.126 0 1 156587 
+104.204.56.106 0 1 137471 
+104.238.194.164 6 6 50606 20151228093500
+87.244.196.122 3 26 3334824 20151202090544
+134.117.97.230 9 45 4818030 20151205203947
+54.209.60.63 8 8 62733 20151214212240
+96.231.164.59 0 1 138887 
+66.97.29.92 0 2 100198 
+201.8.104.220 0 3 233630 
+136.243.48.82 1 1 13796 20151228204632
+136.243.48.84 1 1 10785 20151216093459
+23.251.210.130 1 1 10070 20151206150200
+176.31.191.26 1 1 10785 20151225030724
+104.197.250.4 1 1 4804 20151210230112
+177.129.15.70 1 1 10057 20151203112551
+50.117.89.108 8 8 66864 20151224112040
+209.139.221.225 0 2 315217 
+195.154.146.225 1 1 10530 20151214030649
+76.65.207.36 3 19 8177944 20151221122822
+1.160.212.132 1 1 10785 20151219032101
+192.241.230.25 3 20 7952793 20151217124954
+70.185.238.137 0 1 205378 
+84.132.219.206 3 3 31590 20151213155006
+50.169.119.46 0 1 32083 
+40.117.235.158 5 5 35308 20151221001445
+173.252.88.251 0 1 221939 
+62.212.73.49 1 1 10057 20151204051358
+66.249.85.175 1 1 10057 20151202082644
+178.137.88.17 3 3 32355 20151229003207
+199.189.88.145 0 1 137471 
+178.137.162.85 12 12 126360 20151208222606
+65.52.240.20 1 1 4835 20151206172832
+156.57.171.88 3 26 8294654 20151227164022
+195.28.183.88 1 1 10530 20151208090442
+39.44.184.40 0 1 137471 
+179.158.89.74 1 11 149603 20151202133243
+204.44.191.62 3 26 8294654 20151217072200
+115.139.173.182 3 26 3334824 20151201220228
+173.252.88.245 0 1 156587 
+24.67.65.87 2 12 7679632 20151213100127
+81.196.141.121 0 1 25458 
+176.77.53.207 3 19 290706 20151219084933
+184.148.40.66 1 13 726007 20151220215023
+66.249.85.197 7 7 73542 20151227212717
+193.90.12.87 1 1 10530 20151206190803
+151.80.138.19 1 1 10785 20151222182008
+76.65.121.86 14 54 11731160 20151217125915
+69.118.9.40 0 1 109839 
+168.170.196.90 0 1 205378 
+134.249.49.23 9 9 97065 20151230220030
+199.43.174.244 0 1 50099 
+50.158.195.247 0 1 794354 
+189.120.47.22 3 26 3334824 20151202134326
+95.132.38.60 0 1 137471 
+195.154.226.90 1 1 10785 20151231011754
+46.118.123.213 9 9 90513 20151203225123
+54.175.112.11 1 1 4769 20151226201707
+173.252.88.247 0 1 156587 
+173.252.88.248 0 1 221939 
+195.154.227.118 1 1 10785 20151220115832
+71.92.105.27 0 1 80756 
+54.174.10.234 1 1 4769 20151201022401
+66.249.85.194 8 8 84532 20151231132816
+184.145.29.102 8 34 16757022 20151206172510
+134.117.249.146 10 42 5352792 20151205141236
+173.208.215.234 1 1 10070 20151205222221
+70.72.81.138 0 1 137471 
+24.114.94.5 9 47 753039 20151208230021
+188.166.87.43 1 1 0 20151221175321
+38.100.21.61 10 11 82515 20151215160032
+38.100.21.171 10 11 87210 20151223003939
+76.70.16.51 3 15 327845 20151202150812
+178.20.55.18 1 1 10530 20151211062143
+204.13.200.200 1 11 150331 20151230001355
+208.184.112.74 0 1 8960 
+23.102.70.224 1 1 10530 20151214130935
+173.252.88.250 0 1 221939 
+50.70.27.74 0 1 50099 
+104.247.231.63 6 30 3579109 20151203175352
+107.172.176.47 1 1 10070 20151205080927
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20151201 37 215 24386934 12
+20151202 59 241 17741698 15
+20151203 74 136 7607006 16
+20151204 124 330 22890085 16
+20151205 56 120 11059059 13
+20151206 48 110 34086281 15
+20151207 57 149 20102794 15
+20151208 106 294 49167684 17
+20151209 48 189 37495633 17
+20151210 62 107 10112028 18
+20151211 56 90 1618260 16
+20151212 45 125 29627219 10
+20151213 29 81 19170887 9
+20151214 94 489 19815248 14
+20151215 30 87 18276811 6
+20151216 50 121 29018102 12
+20151217 73 216 54393761 16
+20151218 28 51 8571173 9
+20151219 33 74 1808308 12
+20151220 26 66 10424801 9
+20151221 38 55 8658904 10
+20151222 41 92 16988934 12
+20151223 41 49 924191 8
+20151224 37 60 8656760 10
+20151225 19 20 314754 6
+20151226 25 26 364640 8
+20151227 20 67 16877769 7
+20151228 9 9 95492 4
+20151229 12 13 260875 5
+20151230 44 78 8846269 10
+20151231 9 32 8359364 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 7
+0s-30s 297
+30s-2mn 19
+2mn-5mn 6
+15mn-30mn 8
+30mn-1h 12
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 831 8758233 314 216
+/Categories.php 228 1037196 0 71
+/footer.html 79 229569 0 19
+/viewPageTest.php 68 327261 13 22
+/about.php 41 252883 14 12
+/index.php 30 313044 1 1
+/WorldWideAffairs.php 29 267124 1 0
+/Comics.php 26 214110 0 1
+/PopCulture.php 22 191994 0 0
+/Carleton.php 15 144000 0 0
+/memberResources.php 14 81074 4 3
+/archives.php 13 166396 3 1
+/Sports.php 10 92346 1 1
+/join.php 8 60296 0 2
+/Politics.php 7 63588 0 0
+/templates.php 6 38394 1 3
+/pictures.php 3 19209 0 0
+END_SIDER

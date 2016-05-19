@@ -1,0 +1,50 @@
+<html>
+	<head>
+
+	</head>
+
+	<body>
+		<p style="font-weight:bold;font-size:20px;">You can start a new game or join a game started by another user.    </p>
+		<form  method="GET"  action="startGame.php" onsubmit="return validateStart()" name="startForm">
+			<input type="text"  id="username" name="name" /> <input type="submit" value="Start Game"/></br>
+		</form>
+		<form  method="GET"  action="joinGame.php" style="margin-top:-10px;" onsubmit="return validateJoin()" name="joinForm">
+			<input type="text"  id="id" name="id" /> <input type="submit" value="Join Game"/></br>
+			<input type="hidden" id="nameHidden" name="nameHidden" value="" /> 
+		</form>
+	</body>
+	
+	<script>
+		function validateJoin() 
+		{
+			var id = document.forms["joinForm"]["id"].value;
+			var name = document.forms["startForm"]["name"].value;
+			if (name == null || name == "")
+			{
+				alert("Name must be filled out");
+				return false;
+			}
+			
+			if (id == null || id == "")
+			{
+				alert("ID must be filled out to join game");
+				return false;
+			}
+			
+			//now at this point add the name to the hidden game parameter
+			hidden=document.getElementById('username').value;
+			document.getElementById('nameHidden').value =hidden ;
+		}
+		
+		function validateStart() 
+		{
+			var id = document.forms["joinForm"]["id"].value;
+			var name = document.forms["startForm"]["name"].value;
+			if (name == null || name == "")
+			{
+				alert("Name must be filled out");
+				return false;
+			}
+		}
+	</script>
+</html>

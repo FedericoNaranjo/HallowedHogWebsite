@@ -1,0 +1,749 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201509 will be lost/reset.
+# Last config file used to build this data file was /home/hallowedhog/tmp/awstats/awstats.hallowedhog.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2015                
+POS_TIME 2700                
+POS_VISITOR 15830               
+POS_DAY 23827               
+POS_DOMAIN 3612                
+POS_LOGIN 4005                
+POS_ROBOT 4160                
+POS_WORMS 4753                
+POS_EMAILSENDER 4884                
+POS_EMAILRECEIVER 5027                
+POS_SESSION 24585               
+POS_SIDER 24796               
+POS_FILETYPES 5162                
+POS_DOWNLOADS 5417                
+POS_OS 7904                
+POS_BROWSER 8235                
+POS_SCREENSIZE 9283                
+POS_UNKNOWNREFERER 9357                
+POS_UNKNOWNREFERERBROWSER 9894                
+POS_ORIGIN 10457               
+POS_SEREFERRALS 10602               
+POS_PAGEREFS 10777               
+POS_SEARCHWORDS 11200               
+POS_KEYWORDS 11363               
+POS_MISC 2364                
+POS_ERRORS 11433               
+POS_CLUSTER 3861                
+POS_SIDER_404 11546               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151001001923 2671 755447 9505410028868
+FirstTime 20150905143804
+LastTime 20150930235056
+LastUpdate 20151001051847 2671 0 2670 0 0
+TotalVisits 375                 
+TotalUnique 156                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 223                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 66 636 693058 26 83 629364
+1 183 1664 92194173 12 109 322119
+2 182 1605 16572197 31 131 7125003
+3 162 1124 74786424 27 101 641650
+4 98 720 33495586 25 35 769068
+5 12 12 87969 27 37 16333618
+6 42 116 6115361 24 50 224883
+7 75 368 42236798 20 56 7734561
+8 25 81 4929032 29 58 11586880
+9 132 569 7352996 10 29 191405
+10 54 158 5691101 9 20 377702
+11 97 517 11545022 11 45 27811546
+12 233 1789 23206879 21 43 8502166
+13 167 684 7938378 36 64 5198803
+14 283 1390 124062615 32 113 20030348
+15 159 933 19343946 45 100 13452058
+16 99 693 20240968 3 23 95680
+17 205 1725 9793677 25 34 1799949
+18 213 2068 4930126 21 92 4006752
+19 143 734 5666638 33 148 2056388
+20 25 102 8040644 18 50 434970
+21 106 649 74898807 35 73 4243714
+22 132 1060 2392878 13 88 398074
+23 164 1513 1765547 30 92 302627
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+ca 2480 18815 426090043
+us 484 1900 56772482
+zz 55 119 1368705
+fr 18 39 1126305
+ru 6 22 308771
+cn 5 5 29917
+jp 4 4 33796
+de 2 2 16904
+ua 1 1 0
+nl 1 1 7586
+fi 1 1 7586
+in 0 1 599050
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+googlebot 349 27881174 20150930153930 0
+php 96 100137211 20150930184706 0
+spider 92 1471482 20150930184949 0
+bot[\s_+:,\.\;\/\\-] 81 645960 20150930231713 0
+google[_+\s]web[_+\s]preview 21 170673 20150905223741 0
+googlebot\-image 11 1274565 20150920215537 0
+crawl 9 62473 20150930193326 0
+robot 9 52038 20150925232714 0
+no_user_agent 6 36585 20150908220355 0
+slurp 2 0 20150929080153 0
+[\s_+:,\.\;\/\\-]bot 1 9312 20150929080949 0
+curl 1 7586 20150909005533 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 6933 1843670 0 0
+png 1975 31343046 0 0
+pdf 176 320777040 0 0
+php 1827 32173033 0 0
+html 1230 4081073 0 0
+docx 19 1117612 0 0
+js 6014 13676677 0 0
+jpg 855 80546129 0 0
+gif 1881 802865 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 25
+/archives/Carleton/2015-09-09+Carleton+Assuages+Fears/Carleton+Assuages+Fears,+Campus+Animals+Safe+to+Eat.pdf 19 13 7160928
+/archives/Carleton/2015-09-14+Man+who+designed+Architecture+Building+to+stand+trial/Man+who+designed+Architecture+Building+to+stand+trial.pdf 19 11 9242488
+/archives/Comics/2015-09-24+Mole-asses/Comic-Mole-asses.pdf 14 4 2806048
+/archives/Sports/2015-09-14+Man+given+nobel+prize+after+discovering+what+GeeGee+is/Man+given+nobel+prize+after+discovering+what+GeeGee+is.pdf 13 2 4354546
+/archives/WorldwideAffairs/2015-09-14+Local+Frat+Announces+it+is+Leaving+the+Patriarchy/Local+Frat+Announces+it+is+Leaving+the+Patriarchy.pdf 12 6 1577506
+/archives/Carleton/2015-09-22+First+Years+Required+to+Wear+Helmets+Knee+Pads/First+Years+Required+to+Wear+Helmets,+Kneepads.pdf 11 1 764160
+/resources/TheConstitutionofTheHallowedHog.docx 10 4 217718
+/archives/Politics/2015-09-22+Trump+Announces+Foxy+Running+Mate/Trump+Announces+Foxy+Running+Mate.pdf 10 6 1665144
+/archives/Carleton/2014-08-04+Carleton+One/Carleton+One+Article.pdf 8 4 118742857
+/resources/Templates/NormalPicLeft.docx 6 2 1002851
+/archives/Comics/2015-09-24+Happy+Soccer+Field/Comic-Happy+Soccer+Field.pdf 5 2 1243968
+/resources/GuidetoArticleCreation.docx 5 0 76321
+/archives/Politics/2015-09-13+BREAKING+Unraveling+the+Trudeau+Wynne+Sex+Tape/BREAKING+Unraveling+the+Trudeau+Wynne+Sex+Tape.pdf 5 6 867524
+/archives/Carleton/2015-09-22+Foot+Patrol+to+Operate+as+Delivery+Service/Foot+Patrol+to+Operate+as+Delivery+Service.pdf 5 0 373090
+/archives/Carleton/2015-01-01+Carleton+is+great/Carleton+is+great.pdf 4 7 84988960
+/archives/Carleton/2014-08-05+Carleton+Two/Carleton+Two+Article.pdf 4 2 55084180
+/archives/Comics/2014-08-04+Comics+One/Comics+One+Article.pdf 3 5 56132756
+/resources/HallowedHogEditorsGuide.docx 3 0 47885
+/resources/Templates/MultiPic.docx 3 0 429405
+/archives/Carleton/2015-09-09+Carleton+Assuages+Fears/Carleton+Assauges+Fears,+Campus+Animals+Safe+to+Eat.pdf 2 0 90728
+/archives/PopCulture/2015-09-14+Local+Frat+Announces+it+is+Leaving+the+Patriarchy/Local+Frat+Announces+it+is+Leaving+the+Patriarchy.pdf 1 3 225358
+/archives/Comics/2015-09-24+Mole-asses/Mole-asses.pdf 1 0 82214
+/resources/Templates/NormalPicRight.docx 1 0 143401
+/archives/Politics/2015-09-13+BREAKING+Unraveling+the+Trudeau+Wynne+Sex+Tape/2015-09-13+BREAKING+Unraveling+the+Trudeau+Wynne+Sex+Tape.pdf 1 0 123932
+/resources/Templates/SplitPicRight.docx 1 0 143586
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+blackberry 1 1
+linuxandroid 459 87
+winxp 70 65
+winlong 76 60
+macosx6 34 7
+ios_iphone 359 74
+winunknown 3 3
+win8 1 1
+macosx9 39 14
+macosx7 1 1
+winnt 17413 2169
+java 29 16
+macosx5 2 2
+linux 1403 163
+win7 309 81
+macosx 260 70
+win8.1 188 47
+Unknown 340 196
+macosx8 1 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 53
+firefox28.0 3 3
+firefox14.0 3 3
+chrome44.0.2403.125 1 1
+msie6.0 48 43
+safari7.0 58 15
+chrome40.0.2214.115 4 4
+chrome45.0.2454.85 14944 1888
+chrome38.0.2125.111 1 1
+firefox24.0 1 1
+msie8.0 85 70
+chrome33.0.0.0 118 16
+iphone 120 30
+firefox6.0.2 1 1
+chrome7.0.514.0 1 1
+chrome45.0.2454.93 129 26
+msie7.0 6 6
+safari6.2.8 1 0
+chrome27.0.1453 20 3
+safari8.0 203 50
+wget 8 3
+msie9.0 69 10
+safari1955 38 13
+chrome45.0.2454.95 97 18
+Unknown 254 102
+chrome30.0.0.0 34 11
+blackberry 1 1
+chrome45.0.2454.99 222 40
+safari8.0.8 29 7
+firefox40.0 36 12
+msie5.5 18 0
+firefox3.6.4 1 1
+chrome43.0.2357.130 51 9
+firefox3.0.3 1 1
+chrome45.0.2454.94 173 26
+msie11.0 2 2
+firefox33.0 5 5
+safari9.0 26 5
+firefox39.0 147 39
+mozilla 149 122
+chrome45.0.2454.101 2484 291
+netscape5.0 3 3
+firefox37.0 4 4
+firefox14.0.1 10 10
+firefox3.6.28 1 1
+msie10.0 22 6
+chrome43.0.2357.134 35 10
+chrome45.0.2454.84 155 32
+chrome11.0.696.71 4 4
+chrome27.0.1453.116 1 1
+firefox3.1 1 1
+safari 1158 103
+chrome21.0.1180.89 1 1
+firefox3.6.13 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+\ 20150929075735
+visionutils/0.2 20150924154632
+facebookexternalhit/1.1 20150930184806
+Ruby 20150930235056
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20150915133600
+null 20150907045000
+Google_favicon 20150930135232
+Mozilla/5.0 20150905143808
+Mozilla/5.0_() 20150929075853
+MetaURI_API/2.0__metauri.com 20150929075732
+ltx71_-_(http://ltx71.com/) 20150915033904
+Mozilla/4.0_(compatible;_Synapse) 20150923181456
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 13
+\ 20150929075735
+visionutils/0.2 20150924154632
+facebookexternalhit/1.1 20150930184806
+Ruby 20150930235056
+Apache-HttpClient/4.2.4_(java_1.5) 20150929075732
+Java/1.6.0_33 20150917212925
+python-requests/2.5.1_CPython/2.7.6_Windows/2008ServerR2 20150918035142
+null 20150907045000
+Google_favicon 20150930135232
+Google-HTTP-Java-Client/1.17.0-rc_(gzip) 20150929075733
+Java/1.6.0_22 20150907074930
+MetaURI_API/2.0__metauri.com 20150929075732
+ltx71_-_(http://ltx71.com/) 20150915033904
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 763 822
+From1 1 6
+From2 6 6
+From3 138 138
+From4 2149 20016
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 4 4
+bing 1 1
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://best-seo-report.com 93 93
+http://m.facebook.com 16 16
+https://www.facebook.com 16 16
+http://l.facebook.com/lsr.php 4 4
+http://t.co/il512PUfYc 3 3
+http://t.co/Z5yP22ScJV 2 2
+https://www.facebook.com 2 2
+https://mawords.com/hallowedhog.com 1 1
+http://m.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+anything 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+anything 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 39 2514497
+301 23 5772
+404 795 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 79
+/WorldWideAffairs.php 1 -
+/robots.txt 121 -
+/admin.php 2 -
+/archives/Carleton/2014-08-05+Carleton+Two/ 3 http://hallowedhog.com/viewPageTest.php
+/layout/scripts/galleryviewthemes/jquery.timers.1.2.js 5 http://hallowedhog.com/
+/viewPAge 1 -
+/worldwideaffairs.php 1 -
+/images/demo/100x100.gif 1 http://hallowedhog.com/
+/layout/scripts/galleryviewthemes/jquery.easing.1.3.js 4 http://hallowedhog.com/footer.html
+/m/ 4 -
+/browserconfig.xml 1 -
+/archives/Comics/2015-09-24+Happy+Soccer+Field/ 1 http://hallowedhog.com/viewPageTest.php
+/archives/Comics/2015-09-24+Mole-asses/Picture.png 1 http://hallowedhog.com/viewPageTest.php
+/PopCulture.php 1 -
+/viewpagetest.php 1 -
+/archives/Comics/2015-09-24+Mole-asses/Picture.jpg 1 http://hallowedhog.com/viewPageTest.php
+/About.php 10 http://hallowedhog.com/join.php
+/mobile/ 4 -
+/popculture.php 1 -
+/archives/Comics/2015-09-24+Mole-asses/Comic-Mole-asses.jpg 1 http://hallowedhog.com/viewPageTest.php
+/archives/Carleton/2015-01-01+Carleton+is+great/Picture.png 17 -
+/layout/styles/layout.css 4 http://hallowedhog.com/footer.html
+/images/demo/1.jpg 1 http://hallowedhog.com/index.php
+/images/demo/cool.gif 3 http://hallowedhog.com/index.php
+/resources/ 1 -
+/viewPageTestphparchives/Carleton/2014-08-05+Carleton+Two/Carleton+Two+Article.pdf 1 http://hallowedhog.com/index.php
+/comics.php 1 -
+/archives/comics/2014-08-04%252bcomics%252bone/comics%252bone%252bpicture.png 1 about.com
+/images/demo/1.gif 1 http://hallowedhog.com/
+/http%3A%2F%2Fwww%2Ehallowedhog%2Ecom%2FContactUs%2Ephp 1 -
+/administrator/ 1 -
+/layout/fonts/fontawesome-webfont.woff 6 http://hallowedhog.com/layout/styles/font-awesome.min.css
+/Font/css/font-awesome.min.css 435 http://hallowedhog.com/footer.html
+/wp-login.php 2 -
+/memberResources.php 1 http://hallowedhog.com/index.php
+/archives/Carleton/2015-01-01+Carleton+is+great/ 1 http://hallowedhog.com/viewPageTest.php
+/x.php 1 -
+/archives/Carleton/2014-08-04+Carleton+One/ 4 http://hallowedhog.com/viewPageTest.php
+/layout/scripts/jquery.min.js 4 http://hallowedhog.com/footer.html
+/carletonCategories.php 3 -
+/WorldwideAffairs.php 4 -
+/archives/Carleton/2014-08-04+Carleton+One/Carleton+One+Article.pd 2 http://hallowedhog.com/viewPageTest.php
+/carleton.html 6 http://hallowedhog.com/index.html
+/images/demo/4.gif 1 http://hallowedhog.com/
+/archives/Comics/2014-08-04+Comics+One/Comics+One+Article.pdf 2 -
+/plugins/content/i.php 1 -
+/memberResources 7 -
+/sports.php 1 -
+/images/demo/5.gif 1 http://hallowedhog.com/
+/index.html 27 http://hallowedhog.com/index.php
+/viewPage.php 2 -
+/carleton.php 2 -
+/Sports.php 1 -
+/plugins/content/upgrade.php 1 -
+/layout/scripts/galleryviewthemes/jquery.galleryview.2.1.1.min.js 5 http://hallowedhog.com/
+/archives/RR.pdf 1 http://hallowedhog.com/carleton.html
+/layout/scripts/galleryviewthemes/jquery.galleryview.setup.js 5 http://hallowedhog.com/
+/images/demo/cool.jpg 1 http://hallowedhog.com/index.php
+/archives/Carleton/2014-08-05%20Carleton%20Two/Carleton%20Two%20Article.pdf 3 http://hallowedhog.com/viewPageTest.php
+/layout/fonts/fontawesome-webfont.woff2 6 http://hallowedhog.com/layout/styles/font-awesome.min.css
+/index.hmtl 1 -
+/favicon.gif 1 -
+/archives/Carleton/2015-09-09+Carleton+Assuages+Fears/Carleton+Assauges+Fears,+Campus+Animals+Safe+to+Eat.pdf 3 http://hallowedhog.com/viewPageTest.php
+/layout/fonts/fontawesome-webfont.ttf 6 http://hallowedhog.com/layout/styles/font-awesome.min.css
+/administrator/index.php 1 -
+/viewPAge.php 1 -
+/join.php 1 http://hallowedhog.com/about.php
+/archives.php 3 http://hallowedhog.com/
+/resources/Templates/NormalPicLeft.png 1 http://hallowedhog.com/templates.php
+/archives/ 27 http://hallowedhog.com/index.html
+/politics.php 1 -
+/images/demo/2.gif 1 http://hallowedhog.com/
+/Politics.php 1 -
+/ContactUs.php 6 http://hallowedhog.com/
+/resources/TheConstitutionofTheHallowedHog.doc 2 http://hallowedhog.com/about.php
+/favicon.png 1 -
+/apple-app-site-association 3 -
+/Comics.php 1 -
+/images/demo/3.gif 1 http://hallowedhog.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 223
+64.229.221.82 858 6628 95122362 20150928191619
+174.112.205.192 621 6940 137220897 20150930195904
+134.117.249.237 489 3035 39292576 20150928142707
+38.99.82.191 115 1180 7311565 20150917212925
+134.117.249.67 114 473 35187872 20150930065432
+134.117.249.17 77 344 3913437 20150930143018
+134.117.249.99 45 115 7720454 20150929122410
+148.163.93.156 32 37 670465 20150928101402
+107.173.173.160 31 31 239323 20150921083942
+64.74.215.128 30 137 1677244 20150925225511
+107.173.153.123 30 30 231169 20150910203128
+64.202.160.161 29 134 884257 20150905195544
+184.148.58.24 25 106 14417884 20150924120951
+134.117.249.115 23 88 6799922 20150922162022
+23.239.196.71 20 20 134367 20150916135953
+54.209.60.63 20 20 121461 20150930114056
+135.23.112.18 18 80 10899020 20150928214916
+206.183.1.74 17 22 236620 20150915133600
+134.117.148.88 17 69 8084811 20150921124842
+134.117.249.3 15 86 5061159 20150930122533
+50.117.89.108 14 14 93834 20150914105505
+99.246.8.120 13 41 4086341 20150928213953
+134.117.249.178 13 53 1808611 20150930102251
+104.238.194.164 12 12 80815 20150912185014
+134.117.249.19 12 33 64456 20150915135151
+142.4.213.25 1 1 8800 20150920021021
+54.219.117.34 3 24 2796395 20150924142614
+82.235.56.238 1 1 0 20150907044949
+107.173.97.82 1 1 7879 20150910141346
+192.237.216.89 2 2 14600 20150917143056
+74.112.131.244 1 1 9312 20150929075752
+192.92.196.190 0 1 2580 
+192.92.196.239 0 1 3201 
+192.92.196.183 0 1 2092 
+69.58.178.58 10 10 72515 20150911182354
+176.14.39.17 1 1 7586 20150907073313
+66.249.88.85 8 8 62806 20150921093057
+69.164.111.198 7 16 33212726 20150907074935
+199.30.228.143 1 1 6361 20150906031414
+192.92.196.25 0 1 911 
+192.3.143.196 1 1 8800 20150921211334
+27.18.72.146 1 1 8800 20150921123339
+192.92.196.96 0 1 0 
+142.169.78.203 4 33 18251 20150912114404
+188.165.83.142 0 5 68250 
+142.169.78.17 3 24 1011685 20150928155456
+192.92.196.55 1 1 7879 20150912141756
+142.169.78.22 2 12 150295 20150913071056
+67.193.133.250 1 1 9312 20150928211706
+149.102.107.157 1 1 9312 20150929075732
+192.92.196.157 0 1 93636 
+192.92.196.202 0 1 911 
+99.239.214.14 4 27 1366888 20150924205923
+192.99.150.120 3 21 420497 20150925232348
+208.184.112.75 1 11 147132 20150907044956
+107.173.152.198 1 1 0 20150923181456
+192.92.196.134 0 1 0 
+66.249.88.105 8 8 66851 20150923075801
+192.92.196.146 0 1 93636 
+192.92.196.224 1 1 3576 20150909145458
+192.92.196.100 0 1 0 
+192.92.196.57 0 1 0 
+192.92.196.153 0 1 16973 
+192.92.196.61 0 1 0 
+149.102.105.11 1 1 9312 20150929075732
+192.92.196.39 0 1 2092 
+184.145.40.178 5 26 1025201 20150929220706
+192.92.196.142 0 2 17920 
+192.92.196.209 1 1 3160 20150908174731
+188.165.83.147 1 1 9312 20150929075732
+74.112.131.242 1 1 9312 20150929075853
+188.165.83.136 2 2 18624 20150929075733
+150.70.173.45 1 1 9312 20150929075933
+199.16.196.177 3 8 137171 20150908060203
+99.246.178.100 4 18 323357 20150930200753
+107.173.167.187 8 8 62153 20150910194704
+192.92.196.16 0 1 16973 
+66.102.8.227 0 2 41819 
+192.92.196.175 0 1 1785 
+192.92.196.230 0 1 911 
+134.117.249.144 4 28 2187909 20150928115547
+192.92.196.42 0 1 3201 
+188.165.83.153 0 3 213929 
+192.92.196.165 0 2 3201 
+192.92.196.178 0 1 0 
+173.252.90.124 1 1 4529 20150924154946
+70.31.31.33 2 9 182481 20150930212505
+134.117.196.138 10 35 1175703 20150923152831
+192.92.196.240 0 1 2580 
+173.252.113.115 0 1 1684458 
+37.1.221.87 1 1 0 20150916072634
+192.92.196.254 0 1 0 
+135.19.142.6 3 24 1011685 20150928114020
+66.102.8.232 1 7 62676 20150909005533
+99.246.187.185 3 15 2019061 20150926085750
+23.29.122.222 2 2 9312 20150929075732
+66.220.145.244 1 3 16486 20150930184823
+5.39.80.97 1 1 7586 20150908085920
+38.105.109.12 6 6 28318 20150906032322
+172.245.114.96 1 1 8800 20150922145333
+172.245.120.168 1 1 8800 20150922190214
+173.252.73.102 1 1 4497 20150924144349
+188.165.83.133 1 3 16113 20150929075734
+66.102.7.237 2 2 18624 20150928214901
+184.151.190.241 4 26 1154936 20150929070431
+107.173.165.55 9 9 70032 20150910190422
+192.92.196.234 0 1 6459 
+192.92.196.59 1 1 7586 20150908174728
+66.102.8.237 2 11 226723 20150909005533
+206.248.161.24 6 30 1690084 20150924145937
+192.92.196.233 0 1 2092 
+107.173.159.125 2 2 16679 20150921170401
+192.92.196.186 1 1 3160 20150909145458
+184.168.224.190 1 1 9790 20150930235056
+130.132.173.73 9 33 1817670 20150925064417
+150.70.173.40 1 1 7586 20150907050757
+192.92.196.40 0 1 2949 
+173.252.73.108 1 1 4071 20150924144350
+99.245.238.76 6 28 1199605 20150928120518
+192.92.196.116 0 1 1785 
+158.69.2.151 3 3 21961 20150913215207
+192.92.196.129 0 1 0 
+192.92.196.86 1 1 8104 20150915232119
+198.101.238.203 2 2 14600 20150917143925
+110.75.105.29 1 1 1963 20150905143808
+107.173.163.78 1 1 8800 20150923141537
+192.92.196.22 0 1 8960 
+110.75.105.78 1 1 1963 20150905143804
+192.92.196.41 0 1 3201 
+24.52.236.111 12 63 2988804 20150930195355
+99.245.248.154 6 36 2779154 20150924202658
+192.92.196.85 0 1 0 
+162.244.33.8 1 1 7233 20150906224046
+52.22.9.48 1 1 8104 20150915033904
+195.154.146.225 8 8 68516 20150930114456
+176.31.51.199 1 1 8104 20150915072839
+24.114.95.171 5 26 1025201 20150930145600
+188.165.83.152 1 4 119029 20150929075734
+188.165.83.145 0 3 94096 
+99.241.84.254 11 60 3615556 20150929073126
+178.140.232.9 3 19 286013 20150912175843
+64.69.91.210 1 1 7586 20150907065757
+46.165.221.166 1 1 8800 20150920143622
+23.20.222.187 2 9 509318 20150924154957
+95.175.97.229 1 1 7586 20150907080156
+188.165.83.130 0 2 322215 
+115.248.20.13 0 1 599050 
+99.240.132.244 2 12 148883 20150914165538
+173.252.90.119 0 1 63680 
+192.92.196.106 1 1 3803 20150915232147
+173.252.88.251 0 2 15598 
+70.54.122.156 7 29 2722287 20150928115501
+192.92.196.35 0 1 0 
+107.173.251.143 3 3 24265 20150921125715
+62.212.73.49 1 1 7586 20150907221534
+218.66.74.236 1 1 7879 20150911145555
+66.220.145.148 0 1 1684458 
+198.178.124.47 1 1 8800 20150920230713
+50.193.202.82 1 1 7879 20150911081952
+192.92.196.43 0 1 1785 
+192.92.196.182 0 1 0 
+99.245.232.223 3 24 1011685 20150924154637
+65.52.240.20 3 3 13603 20150930184918
+192.92.196.138 0 1 2949 
+54.206.141.121 2 9 360093 20150924144540
+5.39.93.201 1 1 7586 20150907050026
+173.252.114.113 1 1 4397 20150924155025
+188.165.83.143 1 4 172945 20150929075734
+192.92.196.163 0 1 911 
+220.181.108.147 1 1 9312 20150929073933
+199.7.157.17 2 9 182481 20150930191302
+107.173.156.220 1 1 7586 20150908171528
+134.117.249.114 9 33 22590981 20150909145120
+176.9.99.134 1 1 8104 20150914213723
+192.92.196.203 0 1 0 
+192.92.196.45 1 2 6527 20150915232147
+66.102.7.223 7 7 65184 20150930123033
+192.92.196.12 0 1 0 
+50.18.94.121 2 2 0 20150929075733
+192.92.196.1 1 2 3576 20150908174731
+192.92.196.206 0 1 0 
+99.224.45.177 3 24 1011685 20150929060602
+192.92.196.221 0 2 11909 
+192.92.196.177 0 1 0 
+192.92.196.166 0 1 2092 
+192.92.196.179 0 1 6459 
+149.102.99.208 1 1 9312 20150929075732
+74.12.139.153 3 24 1011685 20150928113200
+192.92.196.2 1 2 10166 20150909145454
+216.69.191.238 1 1 10873 20150923172904
+209.171.88.106 0 2 755 
+192.92.196.241 0 1 93636 
+208.43.251.178 1 1 7586 20150907200749
+172.245.124.190 1 1 8800 20150922231123
+192.92.196.102 0 1 16973 
+192.92.196.54 0 1 2580 
+173.252.90.122 1 1 4577 20150930184806
+192.92.196.156 0 1 1785 
+95.26.250.74 2 2 15172 20150907083412
+192.92.196.117 0 1 6459 
+192.92.196.200 0 1 16973 
+192.92.196.149 0 1 6459 
+66.220.145.243 0 3 159408 
+66.220.145.246 1 3 6587 20150930184824
+150.70.97.116 1 1 9312 20150928174812
+135.23.117.250 6 48 2023370 20150929075932
+66.249.88.95 10 10 81082 20150923071805
+40.76.221.215 3 3 15485 20150918035142
+173.252.90.127 0 1 131072 
+150.70.97.86 1 1 7586 20150907053039
+149.102.103.45 1 1 9312 20150929075732
+40.76.54.39 4 4 29471 20150918065608
+157.52.5.253 5 28 1586604 20150924163222
+192.92.196.174 0 1 93636 
+192.92.196.18 0 1 0 
+134.117.249.160 6 51 341964 20150909145209
+107.173.149.173 1 1 7233 20150906231317
+66.102.7.230 5 5 51991 20150930135232
+192.92.196.133 0 1 0 
+173.252.73.96 0 1 131072 
+23.101.74.229 3 3 25104 20150919211623
+65.49.54.70 10 10 66440 20150911181053
+172.245.210.101 1 1 8800 20150923100740
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20150905 182 1786 1768967 6
+20150906 435 4462 244864667 13
+20150907 410 2534 78990724 32
+20150908 33 54 489948 28
+20150909 128 776 25676249 40
+20150910 30 30 234106 29
+20150911 120 678 1573531 10
+20150912 149 607 80651586 15
+20150913 14 42 228042 9
+20150914 222 981 32519629 15
+20150915 41 100 513945 12
+20150916 5 5 30071 3
+20150917 130 1215 10710520 10
+20150918 149 1170 4813748 9
+20150919 43 190 2867675 5
+20150920 5 5 44000 5
+20150921 24 76 8146411 8
+20150922 34 130 12811892 12
+20150923 206 1856 9016305 11
+20150924 121 645 23638122 22
+20150925 45 183 3842622 5
+20150926 5 17 2032902 3
+20150927 25 25 162510 4
+20150928 119 519 27141868 25
+20150929 58 222 8065239 25
+20150930 324 2602 17145541 19
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 12
+5mn-15mn 15
+0s-30s 293
+30s-2mn 17
+2mn-5mn 8
+15mn-30mn 8
+30mn-1h 22
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/footer.html 766 476842 7 37
+/Categories.php 535 2033226 6 51
+/ 460 3583545 286 182
+/index.php 395 25286878 31 16
+/viewPageTest.php 241 1009224 25 46
+/archives.php 141 740007 3 4
+/about.php 111 616981 5 26
+/join.php 79 556467 5 2
+/memberResources.php 58 316015 2 1
+/templates.php 54 306702 0 2
+/Carleton.php 38 303918 1 0
+/WorldWideAffairs.php 28 207496 0 2
+/viewPage.php 25 63130 1 0
+/Politics.php 25 187250 1 0
+/Sports.php 18 130877 1 0
+/carletonCategories.php 17 63529 0 0
+/PopCulture.php 17 121917 1 1
+/Comics.php 17 124641 0 1
+/testing.php 13 0 0 1
+/pictures.php 10 60615 0 3
+/new.php 5 44160 0 0
+/carleton.html 1 11589 0 0
+/testing.html 1 9097 0 0
+/layout/ 1 0 0 0
+/layout/styles/ 1 0 0 0
+END_SIDER

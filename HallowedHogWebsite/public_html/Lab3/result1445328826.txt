@@ -1,0 +1,4 @@
+<li>With B,B,B, a guessed 1 colours.</li>
+<li>With R,R,R, a guessed 2 colours.</li>
+<li>With B,R,R, a guessed 3 colours.</li>
+GAME OVER,aWINS!
